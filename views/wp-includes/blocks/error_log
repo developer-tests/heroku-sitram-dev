@@ -1,0 +1,98 @@
+[17-Oct-2022 15:25:14 America/Boise] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 9
+[17-Oct-2022 15:25:14 America/Boise] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 9
+[17-Oct-2022 15:25:14 America/Boise] PHP Warning:  require(ABSPATHWPINC/blocks/archives.php): failed to open stream: No such file or directory in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 9
+[17-Oct-2022 15:25:14 America/Boise] PHP Warning:  require(ABSPATHWPINC/blocks/archives.php): failed to open stream: No such file or directory in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 9
+[17-Oct-2022 15:25:14 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/blocks/archives.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 9
+[30-Mar-2023 09:34:16 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home3/sitramin/public_html/wp-includes/blocks/loginout.php:52
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/loginout.php on line 52
+[14-Jul-2023 07:57:52 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home3/sitramin/public_html/wp-includes/blocks/comments-pagination-previous.php:53
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/comments-pagination-previous.php on line 53
+[29-Oct-2023 22:13:58 America/Boise] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[29-Oct-2023 22:13:58 America/Boise] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[29-Oct-2023 22:13:58 America/Boise] PHP Warning:  require(ABSPATHWPINC/blocks/legacy-widget.php): failed to open stream: No such file or directory in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 11
+[29-Oct-2023 22:13:58 America/Boise] PHP Warning:  require(ABSPATHWPINC/blocks/legacy-widget.php): failed to open stream: No such file or directory in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 11
+[29-Oct-2023 22:13:58 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/blocks/legacy-widget.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 11
+[10-Nov-2023 21:42:12 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[12-Nov-2023 22:41:48 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[14-Nov-2023 19:22:52 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[17-Nov-2023 01:38:51 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[18-Nov-2023 17:59:54 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[24-Nov-2023 07:39:33 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[31-Dec-2023 04:06:42 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[31-Dec-2023 04:15:18 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[08-Jan-2024 17:40:19 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[08-Jan-2024 17:41:36 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[16-Jan-2024 14:47:53 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home3/sitramin/public_html/wp-includes/blocks/gallery.php:33
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/gallery.php on line 33
+[20-Jan-2024 10:25:45 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[20-Jan-2024 10:29:08 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[27-Jan-2024 18:35:44 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[07-Feb-2024 09:29:34 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home3/sitramin/public_html/wp-includes/blocks/gallery.php:33
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/gallery.php on line 33
+[12-Feb-2024 11:48:23 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[06-Mar-2024 07:44:29 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[03-Jun-2024 11:26:53 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[05-Jun-2024 22:17:43 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8
+[18-Jun-2024 18:46:25 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/sitramin/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/blocks/index.php on line 8

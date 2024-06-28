@@ -1,0 +1,4 @@
+[14-Jul-2023 07:56:12 America/Boise] PHP Fatal error:  Uncaught Error: Interface 'SimplePie_Cache_Base' not found in /home3/sitramin/public_html/wp-includes/SimplePie/Cache/DB.php:51
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/SimplePie/Cache/DB.php on line 51

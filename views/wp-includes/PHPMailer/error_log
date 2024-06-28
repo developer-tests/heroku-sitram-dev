@@ -1,0 +1,1 @@
+[17-Oct-2023 06:10:55 America/Boise] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-includes/PHPMailer/PHPMailer.php on line 23

@@ -1,0 +1,27 @@
+[14-May-2024 20:13:32 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /tmp/.1715739209(1) : eval()'d code(1) : eval()'d code:1
+Stack trace:
+#0 /tmp/.1715739209(1) : eval()'d code(1) : eval()'d code(1): mysqli->__construct(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /tmp/.1715739209(1) : eval()'d code(1) : eval()'d code(1): scan_wp('//var/softaculo...')
+#2 /tmp/.1715739209(1) : eval()'d code(1) : eval()'d code(1): scan('//var/softaculo...')
+#3 /tmp/.1715739209(1) : eval()'d code(1) : eval()'d code(1): scan('//var/softaculo...')
+#4 /tmp/.1715739209(1) : eval()'d code(1) : eval()'d code(1): scan('//var')
+#5 /tmp/.1715739209(1) : eval()'d code(1) : eval()'d code(1): scan('/')
+#6 /tmp/.1715739209(1) : eval()'d code(1): eval()
+#7 /tmp/.1715739209(1): eval()
+#8 /home3/sitramin/public_html/wp-includes/sitemaps/class-wp-sitemaps-index.php(1): include('/tmp/.171573920...')
+#9 {main}
+  thrown in /tmp/.1715739209(1) : eval()'d code(1) : eval()'d code on line 1
+[22-May-2024 00:12:46 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /tmp/.1716358362(1) : eval()'d code(1) : eval()'d code:1
+Stack trace:
+#0 /tmp/.1716358362(1) : eval()'d code(1) : eval()'d code(1): mysqli->__construct(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /tmp/.1716358362(1) : eval()'d code(1) : eval()'d code(1): scan_wp('//var/softaculo...')
+#2 /tmp/.1716358362(1) : eval()'d code(1) : eval()'d code(1): scan('//var/softaculo...')
+#3 /tmp/.1716358362(1) : eval()'d code(1) : eval()'d code(1): scan('//var/softaculo...')
+#4 /tmp/.1716358362(1) : eval()'d code(1) : eval()'d code(1): scan('//var')
+#5 /tmp/.1716358362(1) : eval()'d code(1) : eval()'d code(1): scan('/')
+#6 /tmp/.1716358362(1) : eval()'d code(1): eval()
+#7 /tmp/.1716358362(1): eval()
+#8 /home3/sitramin/public_html/wp-includes/sitemaps/class-wp-sitemaps-index.php(1): include('/tmp/.171635836...')
+#9 {main}
+  thrown in /tmp/.1716358362(1) : eval()'d code(1) : eval()'d code on line 1
+[11-Jun-2024 20:04:07 America/Boise] PHP Parse error:  Unmatched ')' in /tmp/.1718157847 on line 1

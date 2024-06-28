@@ -1,0 +1,500 @@
+[10-Mar-2023 05:09:15 America/Boise] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home3/sitramin/public_html/wp-includes/functions.php on line 8
+[10-Mar-2023 05:09:15 America/Boise] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home3/sitramin/public_html/wp-includes/functions.php on line 8
+[10-Mar-2023 05:09:15 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home3/sitramin/public_html/wp-includes/functions.php on line 8
+[10-Mar-2023 05:09:15 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home3/sitramin/public_html/wp-includes/functions.php on line 8
+[10-Mar-2023 05:09:15 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/sitramin/public_html/wp-includes/functions.php on line 8
+[10-May-2023 13:26:13 America/Boise] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home3/sitramin/public_html/wp-includes/functions.php on line 8
+[10-May-2023 13:26:13 America/Boise] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home3/sitramin/public_html/wp-includes/functions.php on line 8
+[10-May-2023 13:26:13 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home3/sitramin/public_html/wp-includes/functions.php on line 8
+[10-May-2023 13:26:13 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home3/sitramin/public_html/wp-includes/functions.php on line 8
+[10-May-2023 13:26:13 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/sitramin/public_html/wp-includes/functions.php on line 8
+[21-Jul-2023 11:05:31 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-includes/registration.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:31 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-includes/registration.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:31 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-includes/registration.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:31 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-includes/registration.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:31 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-includes/registration.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:31 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-includes/registration.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:31 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-includes/registration.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-includes/registration.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-includes/registration.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-includes/registration.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-includes/registration.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-includes/registration.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-includes/registration.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-includes/registration.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-includes/registration.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-includes/registration.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:07:25 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-includes/registration.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 1
+[14-Sep-2023 15:32:16 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:17 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:19 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:20 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:20 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:22 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:22 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:23 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:25 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:26 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:27 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:28 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:29 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:30 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:31 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:32 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:33 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:34 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:35 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:36 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:37 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:38 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:40 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:40 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:42 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:43 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:44 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:45 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:46 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[14-Sep-2023 15:32:47 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:16:50 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:16:58 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:17:04 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:17:09 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:17:13 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:17:16 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:17:20 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:17:23 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:17:32 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:17:42 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:17:46 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:17:55 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:18:04 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:18:07 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:18:13 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:18:16 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:18:22 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:18:27 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:18:33 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:18:40 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:18:47 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:18:56 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:19:01 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:19:05 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:19:12 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:19:17 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:19:23 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Sep-2023 09:19:26 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[09-Nov-2023 18:27:59 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[09-Nov-2023 18:28:00 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[09-Nov-2023 18:28:02 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[09-Nov-2023 18:28:03 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[09-Nov-2023 18:28:04 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[09-Nov-2023 18:28:05 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[09-Nov-2023 18:28:06 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[09-Nov-2023 18:28:07 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[09-Nov-2023 18:28:09 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[09-Nov-2023 18:28:10 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:01:58 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:01:59 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:00 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:01 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:02 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:03 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:05 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:05 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:06 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:07 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:08 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:09 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:11 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:13 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:14 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:14 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:15 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:16 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:17 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:18 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:19 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:19 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:20 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:22 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:23 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:24 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:25 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:26 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Nov-2023 03:02:27 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[30-Jan-2024 09:01:55 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[30-Jan-2024 18:00:14 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[30-Jan-2024 18:46:53 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[30-Jan-2024 18:46:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[30-Jan-2024 18:56:55 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[30-Jan-2024 18:57:09 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[30-Jan-2024 18:57:13 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[30-Jan-2024 19:07:34 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[20-Feb-2024 23:21:05 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[20-Feb-2024 23:21:17 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[20-Feb-2024 23:31:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Feb-2024 00:58:32 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Feb-2024 00:58:41 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[21-Feb-2024 01:06:24 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[27-Mar-2024 11:37:43 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[01-Apr-2024 19:12:45 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[25-Apr-2024 07:13:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[09-May-2024 00:16:00 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/sitramin/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/registration.php on line 9
+[22-May-2024 00:12:01 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home3/sitramin/public_html/wp-includes/.1716358317(1) : eval()'d code(1) : eval()'d code:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-includes/.1716358317(1) : eval()'d code(1) : eval()'d code(1): mysqli->__construct(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home3/sitramin/public_html/wp-includes/.1716358317(1) : eval()'d code(1) : eval()'d code(1): scan_wp('//var/softaculo...')
+#2 /home3/sitramin/public_html/wp-includes/.1716358317(1) : eval()'d code(1) : eval()'d code(1): scan('//var/softaculo...')
+#3 /home3/sitramin/public_html/wp-includes/.1716358317(1) : eval()'d code(1) : eval()'d code(1): scan('//var/softaculo...')
+#4 /home3/sitramin/public_html/wp-includes/.1716358317(1) : eval()'d code(1) : eval()'d code(1): scan('//var')
+#5 /home3/sitramin/public_html/wp-includes/.1716358317(1) : eval()'d code(1) : eval()'d code(1): scan('/')
+#6 /home3/sitramin/public_html/wp-includes/.1716358317(1) : eval()'d code(1): eval()
+#7 /home3/sitramin/public_html/wp-includes/.1716358317(1): eval()
+#8 /home3/sitramin/public_html/wp-includes/class-wp-image-editor.php(1): include('/home3/sitramin...')
+#9 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/.1716358317(1) : eval()'d code(1) : eval()'d code on line 1

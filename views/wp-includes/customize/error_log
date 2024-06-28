@@ -1,0 +1,444 @@
+[14-Sep-2023 15:29:24 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:25 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:26 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:27 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:28 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:29 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:30 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:31 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:32 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:34 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:35 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:36 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:37 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:39 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:40 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:41 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:42 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:43 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:44 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:46 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:47 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:48 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:49 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:50 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:51 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:52 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:53 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:54 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:55 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[14-Sep-2023 15:29:56 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:27:09 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:27:12 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:27:14 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:27:21 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:27:24 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:27:26 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:27:28 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:27:34 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:27:36 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:27:41 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:27:45 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:28:11 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:28:13 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:28:15 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:28:18 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:28:20 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:28:22 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:28:25 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:28:26 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Sep-2023 09:28:28 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[09-Nov-2023 18:11:54 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[09-Nov-2023 18:11:56 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[09-Nov-2023 18:12:00 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[09-Nov-2023 18:12:02 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[09-Nov-2023 18:12:04 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[09-Nov-2023 18:12:08 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[09-Nov-2023 18:12:11 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[09-Nov-2023 18:12:13 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[09-Nov-2023 18:12:15 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[09-Nov-2023 18:12:17 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[09-Nov-2023 18:12:18 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:01 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:02 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:03 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:04 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:05 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:06 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:08 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:09 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:10 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:11 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:12 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:13 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:15 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:16 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:16 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:17 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:19 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:20 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:21 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:22 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:23 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:24 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:25 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:26 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:27 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:28 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:29 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Nov-2023 03:03:30 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[30-Jan-2024 09:18:03 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[30-Jan-2024 09:18:05 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[30-Jan-2024 09:43:04 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[30-Jan-2024 09:43:07 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[30-Jan-2024 18:02:25 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[30-Jan-2024 18:50:44 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[30-Jan-2024 18:50:48 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[30-Jan-2024 19:04:08 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[30-Jan-2024 19:04:15 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[20-Feb-2024 23:18:36 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[20-Feb-2024 23:18:50 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[20-Feb-2024 23:30:00 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Feb-2024 00:55:00 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Feb-2024 00:55:05 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Feb-2024 01:01:59 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[21-Feb-2024 01:04:59 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[27-Mar-2024 10:23:42 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[27-Mar-2024 10:23:47 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[27-Mar-2024 10:33:32 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[01-Apr-2024 19:11:46 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[25-Apr-2024 07:14:10 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
+[09-May-2024 00:16:09 America/Boise] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Setting" not found in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/customize/class-wp-customize-background-image-setting.php on line 17
