@@ -1,8 +1,0 @@
-[26-Mar-2024 15:35:42 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home3/sitramin/public_html/wp-content/plugins/hello.php:69
-Stack trace:
-#0 {main}
-  thrown in /home3/sitramin/public_html/wp-content/plugins/hello.php on line 69
-[22-Apr-2024 08:11:05 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home3/sitramin/public_html/wp-content/plugins/hello.php:69
-Stack trace:
-#0 {main}
-  thrown in /home3/sitramin/public_html/wp-content/plugins/hello.php on line 69

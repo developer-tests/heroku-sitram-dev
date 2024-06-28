@@ -1,4 +1,0 @@
-[09-May-2024 00:17:37 America/Boise] PHP Fatal error:  Uncaught Error: Class "elFinderVolumeDriver" not found in /home3/sitramin/public_html/wp-content/plugins/wp-file-manager/lib/php/elFinderVolumeLocalFileSystem.class.php:34
-Stack trace:
-#0 {main}
-  thrown in /home3/sitramin/public_html/wp-content/plugins/wp-file-manager/lib/php/elFinderVolumeLocalFileSystem.class.php on line 34

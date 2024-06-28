@@ -1,1 +1,0 @@
-<?php return array('dependencies' => array('lodash', 'react', 'react-dom', 'wp-api-fetch', 'wp-element', 'wp-i18n', 'wp-polyfill', 'wp-url', 'yith-wcbk-ui-components', 'yith-wcbk-ui-date', 'yith-wcbk-ui-styles'), 'version' => 'd0f57cec4d20dc7fb72c');

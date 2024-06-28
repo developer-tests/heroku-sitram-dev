@@ -1,1 +1,0 @@
-[07-May-2024 16:36:50 America/Boise] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/Products/Stats/Query.php on line 18

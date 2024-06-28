@@ -1,8 +1,0 @@
-[25-Apr-2024 07:12:23 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/theme-tools/random-redirect.php:101
-Stack trace:
-#0 {main}
-  thrown in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/theme-tools/random-redirect.php on line 101
-[09-May-2024 00:16:48 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/theme-tools/random-redirect.php:101
-Stack trace:
-#0 {main}
-  thrown in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/theme-tools/random-redirect.php on line 101
