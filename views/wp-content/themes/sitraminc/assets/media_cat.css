@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width: 600px) and (min-width: 250px) {
+  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    margin-right: 0px;
+}
+.carousel-inner {
+    height: 180px;
+}
+	.carousel-inner img{
+    height: 180px;
+}
+	.product_banner{
+		
+		margin-top:30px; 
+	}	
+	.product_banner_1{
+		
+		margin-top:30px; 
+	}	
+	.product_banner_3{
+		
+		margin-top:30px; 
+	}	
+	.product_banner_4{
+    width: 100% !important;
+		
+	}
+	
+	.footer {
+    text-align: center;
+  }
+  .footer .footer_prod {
+    padding-bottom: 0px;
+  }
+  .footer p {
+    width: 100%;
+  }
+  .footer .footer_cont {
+    margin-left: 0px;
+  }
+  .footer p a {
+    font-size: 27px;
+  }
+	
+/*Add This For Product Page	*/
+.product_list_header .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+	
+	margin-right: 0px !important;
+	
+	}
+
+.product_list_banner h1 {
+    font-size: 36px;
+    padding: 0;
+  padding-top: 0; 
+    margin-left:25px;
+	margin-top: 30px;
+}	
+.product_list_banner .product_list {
+    padding: 0;
+}	
+
+	
+	
+.submenu .cable_type ul li {
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
+}	
+.submenu .cable_type tr td ul li {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #6e6e6e !important;
+}
+.product_five_section {
+    margin-top: 30px;
+}	
+.product_five_section  h1 {
+    color: #1e75bd;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1px;
+   padding: 0px; 
+    padding-left: 0px;
+    text-align: center;
+}	
+.section_five_buttons {
+	
+	text-align: center;
+	margin-top: 30px;
+	
+	}
+	.section_five_slider {
+    margin-top: 30px;
+}
+	.section_five_slider table {
+    table-layout: fixed;
+}
+.section_five_slider td {
+    font-size: 10px;
+}	
+.section_five_slider th {
+    font-size: 12px;
+}	
+.section_five_slider th:nth-child(2)  {
+    font-size: 7px;
+}		
+.section_five_slider .CSSgal .bullets > a {
+    width: 5%;
+}
+	.section_five_slider .CSSgal .prevNext a {
+    left: 0;
+}
+.section_five_slider .CSSgal .prevNext a+a {
+    left: auto;
+    right: 0;
+}	
+.get_in_touch button {
+    font-size: 12px;
+	    width: 50%;
+}	
+.get_in_touch p {
+    font-size: 12px;
+	    width: 50%;
+}	
+.modal-content .modal-header div h2 {
+    font-size: 15px;
+	width: 33%;
+	line-height: 2;
+}	
+.modal-content .modal-header div p {
+    width: 50%;
+	font-size:13px;
+	line-height: 2;
+}	
+.product_five_section .close {
+    width: 22%;
+	font-size: 38px;
+	
+}	
+.product_five_section .modal-body h1 {
+    font-size: 25px;
+}		
+.products_dropdow_next .accordion_new .center_side_product {
+    width: 45%;
+	margin: 0px 10px;
+}	
+.products_dropdow_next .accordion_new .left_side_product {
+    width: 10%;
+}	
+.products_dropdow_next .accordion_new .link {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+	.products_dropdow_next .accordion_new .right_side_product {
+    width: 20%;
+}
+.products_dropdow_next .accordion_new .delet_right_side_product {
+    width: 16%;
+}	
+.product_five_section .modal-footer .get_in_touch button {
+    width: 47%;
+}	
+.modal-footer-form .email_form {
+    width: 97%;
+}	
+.modal-footer-form .contect_us {
+    width: 97%;
+}	
+.modal-footer-form .contect_us p {
+    padding: 10px 10px;
+}	
+.modal-footer-form .contect_us h1 {
+    font-size: 17px;
+    padding-left: 10px;
+    margin-top: 10px;
+}	
+.form-control {
+    padding: 5px;
+}	
+	
+	
+/*Add this code product landing page	*/
+.product_landing_page .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+	margin-right: 0px;
+	}	
+.product_landing_banner .product_list {
+    padding: 0;
+}	
+.product_landing_banner h1 {
+    font-size: 36px;
+    padding: 0;
+  padding-top: 0; 
+    margin-left:25px;;
+}	
+.product_landing_section .product_detils_landing ul li {
+    width: 100%;
+}
+.product_land_section .get_in_touch button {
+    width: 100%;
+}	
+	
+	
+	
+	
+	
+}

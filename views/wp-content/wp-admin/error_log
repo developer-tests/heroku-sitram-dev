@@ -1,0 +1,807 @@
+[13-Oct-2022 17:48:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_is_block_theme() in /home3/sitramin/public_html/wp-admin/includes/dashboard.php:1995
+Stack trace:
+#0 /home3/sitramin/public_html/wp-includes/class-wp-hook.php(303): wp_welcome_panel('')
+#1 /home3/sitramin/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home3/sitramin/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home3/sitramin/public_html/wp-admin/index.php(175): do_action('welcome_panel')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/includes/dashboard.php on line 1995
+[07-Nov-2022 17:53:00 UTC] WordPress database error Commands out of sync; you can't run this command now for query UPDATE `wp_options` SET `option_value` = '1667843640' WHERE `option_name` = 'action_scheduler_lock_async-request-runner' made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_OptionLock->set, update_option
+[07-Nov-2022 17:53:00 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT COUNT(DISTINCT claim_id) FROM wp_actionscheduler_actions WHERE claim_id != 0 AND status IN ( 'pending', 'in-progress') made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_AsyncRequest_QueueRunner->maybe_dispatch, ActionScheduler_AsyncRequest_QueueRunner->allow, ActionScheduler_Abstract_QueueRunner->has_maximum_concurrent_batches, ActionScheduler_DBStore->get_claim_count
+[07-Nov-2022 17:53:00 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT a.action_id FROM wp_actionscheduler_actions a WHERE 1=1 AND a.status IN ('pending') AND a.scheduled_date_gmt <= '2022-11-07 17:53:00' LIMIT 0, 5 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_AsyncRequest_QueueRunner->maybe_dispatch, ActionScheduler_AsyncRequest_QueueRunner->allow, ActionScheduler_Store->has_pending_actions_due, ActionScheduler_DBStore->query_actions
+[07-Nov-2022 17:53:00 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = 'jpsq_sync_checkout' made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\Jetpack\Sync\Sender->do_sync, Automattic\Jetpack\Sync\Dedicated_Sender::spawn_sync, Automattic\Jetpack\Sync\Queue->is_locked, Automattic\Jetpack\Sync\Queue->get_checkout_id
+[07-Nov-2022 17:53:00 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT count(*) FROM wp_options WHERE option_name LIKE 'jpsq_sync-%' made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\Jetpack\Sync\Sender->do_sync, Automattic\Jetpack\Sync\Dedicated_Sender::spawn_sync, Automattic\Jetpack\Sync\Queue->size
+[07-Nov-2022 17:53:00 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = 'jetpack_sync_full_status' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\Jetpack\Sync\Sender->do_full_sync, Automattic\Jetpack\Sync\Modules\Full_Sync_Immediately->get_status, Jetpack_Options::get_raw_option
+[07-Nov-2022 17:53:00 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT COUNT(*) FROM wp_bv_fw_requests; made by BVFW->log, BVLogger->log, MCWPDb->rowsCount, MCWPDb->getVar
+[07-Nov-2022 17:53:00 UTC] WordPress database error Commands out of sync; you can't run this command now for query SHOW FULL COLUMNS FROM `wp_bv_fw_requests` made by BVFW->log, BVLogger->log, MCWPDb->replaceIntoBVTable
+[16-Nov-2022 13:52:30 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Automattic\WooCommerce\Internal\Utilities\COTMigrationUtil::init_theorder_object() must be an instance of WC_Order, bool returned in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Utilities/COTMigrationUtil.php:121
+Stack trace:
+#0 /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Utilities/OrderUtil.php(69): Automattic\WooCommerce\Internal\Utilities\COTMigrationUtil->init_theorder_object(Object(WP_Post))
+#1 /home3/sitramin/public_html/wp-content/plugins/woocommerce-services/classes/class-wc-connect-compatibility-wc69.php(37): Automattic\WooCommerce\Utilities\OrderUtil::init_theorder_object(Object(WP_Post))
+#2 /home3/sitramin/public_html/wp-content/plugins/woocommerce-services/classes/class-wc-connect-shipping-label.php(459): WC_Connect_Compatibility_WC69->init_theorder_object(Object(WP_Post))
+#3 /home3/sitramin/public_html/wp-content/plugins/woocommerce-services/classes/class-wc-connect-shipping-label.php(440): WC_Connect_Shipping_Label in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Utilities/COTMigrationUtil.php on line 121
+[16-Nov-2022 13:52:36 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Automattic\WooCommerce\Internal\Utilities\COTMigrationUtil::init_theorder_object() must be an instance of WC_Order, bool returned in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Utilities/COTMigrationUtil.php:121
+Stack trace:
+#0 /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Utilities/OrderUtil.php(69): Automattic\WooCommerce\Internal\Utilities\COTMigrationUtil->init_theorder_object(Object(WP_Post))
+#1 /home3/sitramin/public_html/wp-content/plugins/woocommerce-services/classes/class-wc-connect-compatibility-wc69.php(37): Automattic\WooCommerce\Utilities\OrderUtil::init_theorder_object(Object(WP_Post))
+#2 /home3/sitramin/public_html/wp-content/plugins/woocommerce-services/classes/class-wc-connect-shipping-label.php(459): WC_Connect_Compatibility_WC69->init_theorder_object(Object(WP_Post))
+#3 /home3/sitramin/public_html/wp-content/plugins/woocommerce-services/classes/class-wc-connect-shipping-label.php(440): WC_Connect_Shipping_Label in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Utilities/COTMigrationUtil.php on line 121
+[16-Nov-2022 13:53:10 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Automattic\WooCommerce\Internal\Utilities\COTMigrationUtil::init_theorder_object() must be an instance of WC_Order, bool returned in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Utilities/COTMigrationUtil.php:121
+Stack trace:
+#0 /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Utilities/OrderUtil.php(69): Automattic\WooCommerce\Internal\Utilities\COTMigrationUtil->init_theorder_object(Object(WP_Post))
+#1 /home3/sitramin/public_html/wp-content/plugins/woocommerce-services/classes/class-wc-connect-compatibility-wc69.php(37): Automattic\WooCommerce\Utilities\OrderUtil::init_theorder_object(Object(WP_Post))
+#2 /home3/sitramin/public_html/wp-content/plugins/woocommerce-services/classes/class-wc-connect-shipping-label.php(459): WC_Connect_Compatibility_WC69->init_theorder_object(Object(WP_Post))
+#3 /home3/sitramin/public_html/wp-content/plugins/woocommerce-services/classes/class-wc-connect-shipping-label.php(440): WC_Connect_Shipping_Label in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Utilities/COTMigrationUtil.php on line 121
+[16-Nov-2022 14:05:54 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Automattic\WooCommerce\Internal\Utilities\COTMigrationUtil::init_theorder_object() must be an instance of WC_Order, bool returned in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Utilities/COTMigrationUtil.php:121
+Stack trace:
+#0 /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Utilities/OrderUtil.php(69): Automattic\WooCommerce\Internal\Utilities\COTMigrationUtil->init_theorder_object(Object(WP_Post))
+#1 /home3/sitramin/public_html/wp-content/plugins/woocommerce-services/classes/class-wc-connect-compatibility-wc69.php(37): Automattic\WooCommerce\Utilities\OrderUtil::init_theorder_object(Object(WP_Post))
+#2 /home3/sitramin/public_html/wp-content/plugins/woocommerce-services/classes/class-wc-connect-shipping-label.php(459): WC_Connect_Compatibility_WC69->init_theorder_object(Object(WP_Post))
+#3 /home3/sitramin/public_html/wp-content/plugins/woocommerce-services/classes/class-wc-connect-shipping-label.php(440): WC_Connect_Shipping_Label in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Utilities/COTMigrationUtil.php on line 121
+[16-Nov-2022 14:08:15 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Automattic\WooCommerce\Internal\Utilities\COTMigrationUtil::init_theorder_object() must be an instance of WC_Order, bool returned in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Utilities/COTMigrationUtil.php:121
+Stack trace:
+#0 /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Utilities/OrderUtil.php(69): Automattic\WooCommerce\Internal\Utilities\COTMigrationUtil->init_theorder_object(Object(WP_Post))
+#1 /home3/sitramin/public_html/wp-content/plugins/woocommerce-services/classes/class-wc-connect-compatibility-wc69.php(37): Automattic\WooCommerce\Utilities\OrderUtil::init_theorder_object(Object(WP_Post))
+#2 /home3/sitramin/public_html/wp-content/plugins/woocommerce-services/classes/class-wc-connect-shipping-label.php(459): WC_Connect_Compatibility_WC69->init_theorder_object(Object(WP_Post))
+#3 /home3/sitramin/public_html/wp-content/plugins/woocommerce-services/classes/class-wc-connect-shipping-label.php(440): WC_Connect_Shipping_Label in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Utilities/COTMigrationUtil.php on line 121
+[16-Nov-2022 14:15:47 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Freemius' not found in /home3/sitramin/public_html/wp-includes/class-wp-hook.php on line 308
+[16-Nov-2022 14:16:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home3/sitramin/public_html/wp-content/plugins/ninja-tables/admin/NinjaTablesAdmin.php on line 1758
+[16-Nov-2022 14:18:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WooCommerce\PayPalCommerce\WcGateway\Settings\SettingsListener::__construct(), 9 passed in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-wc-gateway/services.php on line 277 and exactly 11 expected in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-wc-gateway/src/Settings/SettingsListener.php:129
+Stack trace:
+#0 /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-wc-gateway/services.php(277): WooCommerce\PayPalCommerce\WcGateway\Settings\SettingsListener->__construct(Object(WooCommerce\PayPalCommerce\WcGateway\Settings\Settings), Array, Object(WooCommerce\PayPalCommerce\Webhooks\WebhookRegistrar), Object(WooCommerce\PayPalCommerce\ApiClient\Helper\Cache), Object(WooCommerce\PayPalCommerce\Onboarding\State), Object(WooCommerce\PayPalCommerce\ApiClient\Authentication\PayPalBearer), '', Object(WooCommerce\PayPalCommerce\ApiClient\Helper\Ca in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-wc-gateway/src/Settings/SettingsListener.php on line 129
+[21-Mar-2023 13:14:03 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home3/sitramin/public_html/wp-admin/menu-header.php:38
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/menu-header.php on line 38
+[21-Mar-2023 13:15:27 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home3/sitramin/public_html/wp-admin/menu-header.php:38
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/menu-header.php on line 38
+[29-Mar-2023 14:30:45 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 14:32:45 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 14:34:45 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 14:36:45 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 14:38:45 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 14:40:45 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 14:42:45 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 14:44:45 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 14:46:45 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 14:48:45 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 14:50:45 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 14:52:45 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 14:54:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 14:56:45 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 14:58:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:00:45 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:02:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:04:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:06:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:08:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:10:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:12:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:14:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:16:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:18:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:20:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:22:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:24:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:26:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:28:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:30:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:32:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:34:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:36:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:38:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:40:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:42:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:44:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:46:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:48:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:50:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:52:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:54:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:56:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 15:58:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 16:00:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 16:02:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 16:04:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 16:06:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[29-Mar-2023 16:08:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-includes/compat.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-settings.php(107): require()
+#1 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#2 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#4 {main}
+  thrown in /home3/sitramin/public_html/wp-includes/compat.php on line 1
+[24-Apr-2023 18:54:38 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/sitramin/public_html/wp-content/plugins/easypost-woocommerce-shipping/includes/class-wf-shipping-easypost-admin.php on line 21
+[24-Apr-2023 18:54:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/sitramin/public_html/backup/wp-content/plugins/wpforms-lite/vendor/goodby/csv/src/Goodby/CSV/Import/Standard/Observer/Session.php:3) in /home3/sitramin/public_html/wp-admin/admin-ajax.php on line 27
+[24-Apr-2023 18:54:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/sitramin/public_html/backup/wp-content/plugins/wpforms-lite/vendor/goodby/csv/src/Goodby/CSV/Import/Standard/Observer/Session.php:3) in /home3/sitramin/public_html/wp-admin/admin-ajax.php on line 28
+[24-Apr-2023 18:54:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/sitramin/public_html/backup/wp-content/plugins/wpforms-lite/vendor/goodby/csv/src/Goodby/CSV/Import/Standard/Observer/Session.php:3) in /home3/sitramin/public_html/wp-includes/functions.php on line 6782
+[24-Apr-2023 18:54:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/sitramin/public_html/backup/wp-content/plugins/wpforms-lite/vendor/goodby/csv/src/Goodby/CSV/Import/Standard/Observer/Session.php:3) in /home3/sitramin/public_html/wp-admin/includes/misc.php on line 1431
+[24-Apr-2023 18:54:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/sitramin/public_html/backup/wp-content/plugins/wpforms-lite/vendor/goodby/csv/src/Goodby/CSV/Import/Standard/Observer/Session.php:3) in /home3/sitramin/public_html/wp-includes/functions.php on line 6896
+[24-Apr-2023 18:54:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/sitramin/public_html/backup/wp-content/plugins/wpforms-lite/vendor/goodby/csv/src/Goodby/CSV/Import/Standard/Observer/Session.php:3) in /home3/sitramin/public_html/wp-content/plugins/mailpoet/lib/Util/Cookies.php on line 35
+[24-Apr-2023 18:54:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/sitramin/public_html/backup/wp-content/plugins/wpforms-lite/vendor/goodby/csv/src/Goodby/CSV/Import/Standard/Observer/Session.php:3) in /home3/sitramin/public_html/wp-includes/pluggable.php on line 1427
+[24-Apr-2023 18:54:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/sitramin/public_html/backup/wp-content/plugins/wpforms-lite/vendor/goodby/csv/src/Goodby/CSV/Import/Standard/Observer/Session.php:3) in /home3/sitramin/public_html/wp-includes/pluggable.php on line 1430
+[26-Apr-2023 17:01:46 UTC] PHP Fatal error:  require(): Failed opening required '/home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Admin/RemoteInboxNotifications/StoredStateSetupForProducts.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/sitramin/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+[05-May-2023 11:28:25 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home3/sitramin/public_html/wp-admin/menu-header.php:38
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/menu-header.php on line 38
+[05-May-2023 11:32:38 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home3/sitramin/public_html/wp-admin/menu-header.php:38
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/menu-header.php on line 38
+[13-Jun-2023 19:21:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WooCommerce\PayPalCommerce\Webhooks\Handler\VaultPaymentTokenCreated::__construct(), 3 passed in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-webhooks/services.php on line 83 and exactly 4 expected in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-webhooks/src/Handler/VaultPaymentTokenCreated.php:64
+Stack trace:
+#0 /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-webhooks/services.php(83): WooCommerce\PayPalCommerce\Webhooks\Handler\VaultPaymentTokenCreated->__construct(Object(WooCommerce\WooCommerce\Logging\Logger\NullLogger), 'WC-', Object(WooCommerce\PayPalCommerce\WcGateway\Processor\AuthorizedPaymentsProcessor))
+#1 /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/lib/packages/Dhii/Container/DelegatingContainer.php(117): WooCommerce\PayPalCommerce\Webhooks\WebhookModule->WooCommerce\PayPalCommerce\Web in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-webhooks/src/Handler/VaultPaymentTokenCreated.php on line 64
+[13-Jun-2023 19:21:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WooCommerce\PayPalCommerce\Webhooks\Handler\VaultPaymentTokenCreated::__construct(), 3 passed in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-webhooks/services.php on line 83 and exactly 4 expected in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-webhooks/src/Handler/VaultPaymentTokenCreated.php:64
+Stack trace:
+#0 /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-webhooks/services.php(83): WooCommerce\PayPalCommerce\Webhooks\Handler\VaultPaymentTokenCreated->__construct(Object(WooCommerce\WooCommerce\Logging\Logger\NullLogger), 'WC-', Object(WooCommerce\PayPalCommerce\WcGateway\Processor\AuthorizedPaymentsProcessor))
+#1 /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/lib/packages/Dhii/Container/DelegatingContainer.php(117): WooCommerce\PayPalCommerce\Webhooks\WebhookModule->WooCommerce\PayPalCommerce\Web in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-webhooks/src/Handler/VaultPaymentTokenCreated.php on line 64
+[29-Jun-2023 02:26:32 UTC] PHP Warning:  require_once(/home3/sitramin/public_html/wp-content/plugins/woocommerce-payments/includes/notes/class-wc-payments-notes-set-up-refund-policy.php): failed to open stream: No such file or directory in /home3/sitramin/public_html/wp-content/plugins/woocommerce-payments/includes/class-wc-payments.php on line 1245
+[29-Jun-2023 02:26:32 UTC] PHP Fatal error:  require_once(): Failed opening required '/home3/sitramin/public_html/wp-content/plugins/woocommerce-payments/includes/notes/class-wc-payments-notes-set-up-refund-policy.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/sitramin/public_html/wp-content/plugins/woocommerce-payments/includes/class-wc-payments.php on line 1245
+[13-Jul-2023 19:57:31 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home3/sitramin/public_html/wp-admin/menu-header.php:38
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/menu-header.php on line 38
+[20-Jul-2023 11:35:23 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home3/sitramin/public_html/wp-admin/menu-header.php:38
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/menu-header.php on line 38
+[20-Jul-2023 17:41:27 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home3/sitramin/public_html/wp-admin/menu-header.php:38
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/menu-header.php on line 38
+[21-Jul-2023 11:05:31 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-admin/widgets-form-blocks.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:31 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-admin/widgets-form-blocks.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:31 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-admin/widgets-form-blocks.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:31 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-admin/widgets-form-blocks.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:31 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-admin/widgets-form-blocks.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:31 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-admin/widgets-form-blocks.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:31 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-admin/widgets-form-blocks.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-admin/widgets-form-blocks.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-admin/widgets-form-blocks.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-admin/widgets-form-blocks.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-admin/widgets-form-blocks.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-admin/widgets-form-blocks.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-admin/widgets-form-blocks.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-admin/widgets-form-blocks.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-admin/widgets-form-blocks.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-admin/widgets-form-blocks.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code on line 1
+[21-Jul-2023 11:07:25 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/2002): Failed to parse IPv6 address &quot;[[softdbhost]]:3306&quot; in /home3/sitramin/public_html/wp-admin/widgets-form-blocks.php(1) : runtime-created function(1) : eval()'d code(1) : eval()'d code on line 1
+[25-Sep-2023 09:02:03 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor/modules/system-info/module.php on line 3
+[25-Sep-2023 09:02:04 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor/modules/system-info/module.php on line 3
+[25-Sep-2023 11:17:44 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor/modules/system-info/module.php on line 3
+[25-Sep-2023 13:47:00 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor/modules/system-info/module.php on line 3
+[25-Sep-2023 13:47:01 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor/modules/system-info/module.php on line 3
+[26-Sep-2023 16:27:36 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor/modules/system-info/module.php on line 3
+[26-Sep-2023 16:27:37 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor/modules/system-info/module.php on line 3
+[29-Sep-2023 09:01:57 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home3/sitramin/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-post-types.php:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin.php(57): include_once()
+#1 /home3/sitramin/public_html/wp-includes/class-wp-hook.php(310): WC_Admin->includes('')
+#2 /home3/sitramin/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 /home3/sitramin/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home3/sitramin/public_html/wp-settings.php(632): do_action('init')
+#5 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#6 /home3/sitramin/public_html/wp-load.php(50): require_once('/home3/sitramin...')
+#7 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#8 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-post-types.php on line 1
+[09-Oct-2023 09:02:05 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor-pro/base/module-base.php on line 3
+[09-Oct-2023 09:02:06 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor-pro/base/module-base.php on line 3
+[11-Oct-2023 01:08:40 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor-pro/base/module-base.php on line 3
+[11-Oct-2023 01:11:56 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor-pro/base/module-base.php on line 3
+[11-Oct-2023 22:16:12 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor-pro/base/module-base.php on line 3
+[11-Oct-2023 22:21:58 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor-pro/base/module-base.php on line 3
+[11-Oct-2023 22:28:31 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor-pro/base/module-base.php on line 3
+[11-Oct-2023 22:28:34 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor-pro/base/module-base.php on line 3
+[11-Oct-2023 22:29:17 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor-pro/base/module-base.php on line 3
+[11-Oct-2023 22:29:22 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor-pro/base/module-base.php on line 3
+[11-Oct-2023 22:29:22 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor-pro/base/module-base.php on line 3
+[11-Oct-2023 22:29:46 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor-pro/base/module-base.php on line 3
+[11-Oct-2023 22:30:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Blocks\_wp_to_kebab_case() in /home3/sitramin/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockPatterns.php:187
+Stack trace:
+#0 /home3/sitramin/public_html/wp-includes/class-wp-hook.php(292): Automattic\WooCommerce\Blocks\BlockPatterns->register_block_patterns('')
+#1 /home3/sitramin/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home3/sitramin/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home3/sitramin/public_html/wp-settings.php(560): do_action('init')
+#4 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#5 /home3/sitramin/public_html/wp-load.php(37): require_once('/home3/sitramin...')
+#6 /home3/sitramin/public_html/wp-admin/admin.php(34): require_once('/home3/sitramin...')
+#7 /home3/sitramin/public_html/wp-admin/index.php(10): require_once('/home3/sitramin...')
+#8 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockPatterns.php on line 187
+[11-Oct-2023 22:30:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Blocks\_wp_to_kebab_case() in /home3/sitramin/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockPatterns.php:187
+Stack trace:
+#0 /home3/sitramin/public_html/wp-includes/class-wp-hook.php(292): Automattic\WooCommerce\Blocks\BlockPatterns->register_block_patterns('')
+#1 /home3/sitramin/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home3/sitramin/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home3/sitramin/public_html/wp-settings.php(560): do_action('init')
+#4 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#5 /home3/sitramin/public_html/wp-load.php(37): require_once('/home3/sitramin...')
+#6 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#7 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockPatterns.php on line 187
+[11-Oct-2023 22:32:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Blocks\_wp_to_kebab_case() in /home3/sitramin/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockPatterns.php:187
+Stack trace:
+#0 /home3/sitramin/public_html/wp-includes/class-wp-hook.php(292): Automattic\WooCommerce\Blocks\BlockPatterns->register_block_patterns('')
+#1 /home3/sitramin/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home3/sitramin/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home3/sitramin/public_html/wp-settings.php(560): do_action('init')
+#4 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#5 /home3/sitramin/public_html/wp-load.php(37): require_once('/home3/sitramin...')
+#6 /home3/sitramin/public_html/wp-admin/admin.php(34): require_once('/home3/sitramin...')
+#7 /home3/sitramin/public_html/wp-admin/index.php(10): require_once('/home3/sitramin...')
+#8 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockPatterns.php on line 187
+[11-Oct-2023 22:32:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Blocks\_wp_to_kebab_case() in /home3/sitramin/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockPatterns.php:187
+Stack trace:
+#0 /home3/sitramin/public_html/wp-includes/class-wp-hook.php(292): Automattic\WooCommerce\Blocks\BlockPatterns->register_block_patterns('')
+#1 /home3/sitramin/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home3/sitramin/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home3/sitramin/public_html/wp-settings.php(560): do_action('init')
+#4 /home3/sitramin/public_html/wp-config.php(95): require_once('/home3/sitramin...')
+#5 /home3/sitramin/public_html/wp-load.php(37): require_once('/home3/sitramin...')
+#6 /home3/sitramin/public_html/wp-admin/admin-ajax.php(22): require_once('/home3/sitramin...')
+#7 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockPatterns.php on line 187
+[11-Oct-2023 22:32:23 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor-pro/base/module-base.php on line 3
+[11-Oct-2023 22:32:30 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor-pro/base/module-base.php on line 3
+[11-Oct-2023 22:34:01 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/elementor-pro/base/module-base.php on line 3
+[11-Oct-2023 22:35:19 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:35:28 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:35:29 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:35:29 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:35:29 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:35:30 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:35:35 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:35:42 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:35:48 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:35:54 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:01 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:07 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:13 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:20 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:26 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:29 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:29 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:29 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:32 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:39 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:40 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:42 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:42 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:43 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:43 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:48 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:48 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:51 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:36:58 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:37:05 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:37:12 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:37:19 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:37:26 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:37:29 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:37:32 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:37:39 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:37:46 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:37:53 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:38:00 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:38:07 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:38:15 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:38:22 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:38:29 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:38:36 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:38:43 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:38:50 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:38:57 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:39:04 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:39:11 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:39:18 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:39:25 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:39:31 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[11-Oct-2023 22:39:32 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home3/sitramin/public_html/wp-includes/blocks.php on line 20
+[16-Oct-2023 17:57:05 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php on line 9
+[16-Oct-2023 17:57:06 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php on line 9
+[16-Oct-2023 17:58:10 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php on line 9
+[16-Oct-2023 17:58:11 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php on line 9
+[20-Oct-2023 16:23:01 UTC] PHP Warning:  require(/home3/sitramin/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): failed to open stream: No such file or directory in /home3/sitramin/public_html/wp-settings.php on line 298
+[20-Oct-2023 16:23:01 UTC] PHP Fatal error:  require(): Failed opening required '/home3/sitramin/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/sitramin/public_html/wp-settings.php on line 298
+[21-Oct-2023 20:08:07 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM `wp_options` WHERE `option_name` = '_site_transient_update_plugins' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, USPS_Easypost_WooCommerce_Shipping->init, include_once('/plugins/easypost-woocommerce-shipping/includes/wf_api_manager/wf-api-manager-config.php'), wp_clean_update_cache, wp_clean_plugins_cache, delete_site_transient, delete_site_option, delete_network_option, delete_option
+[23-Oct-2023 09:01:01 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[23-Oct-2023 09:01:02 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[23-Oct-2023 09:01:03 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[23-Oct-2023 12:31:41 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[23-Oct-2023 12:31:41 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[23-Oct-2023 14:11:05 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[23-Oct-2023 14:11:05 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[23-Oct-2023 14:11:05 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[23-Oct-2023 14:11:05 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[23-Oct-2023 14:11:06 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[24-Oct-2023 09:00:39 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[24-Oct-2023 09:00:40 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[24-Oct-2023 09:00:41 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[24-Oct-2023 14:57:49 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[24-Oct-2023 14:57:50 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[24-Oct-2023 14:57:51 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[25-Oct-2023 08:43:29 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[25-Oct-2023 08:43:29 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[25-Oct-2023 08:43:30 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[25-Oct-2023 18:33:41 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[25-Oct-2023 18:33:41 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[25-Oct-2023 18:33:42 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[26-Oct-2023 13:02:23 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[26-Oct-2023 17:12:58 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-payments/includes/payment-methods/class-link-payment-method.php on line 9
+[26-Oct-2023 17:27:34 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-payments/includes/payment-methods/class-link-payment-method.php on line 9
+[26-Oct-2023 17:30:00 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[26-Oct-2023 17:30:00 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[26-Oct-2023 17:31:03 UTC] PHP Fatal error:  Uncaught Error: Class 'WC_Shipping_Method' not found in /home3/sitramin/public_html/wp-content/plugins/easypost-woocommerce-shipping/includes/class-wf-shipping-easypost.php:8
+Stack trace:
+#0 /home3/sitramin/public_html/wp-content/plugins/easypost-woocommerce-shipping/includes/class-wf-shipping-easypost-admin.php(18): include_once()
+#1 /home3/sitramin/public_html/wp-content/plugins/easypost-woocommerce-shipping/includes/class-wf-shipping-easypost-admin.php(3270): WF_Shipping_Easypost_Admin->__construct()
+#2 /home3/sitramin/public_html/wp-content/plugins/easypost-woocommerce-shipping/easypost-woocommerce-shipping.php(135): include_once('/home3/sitramin...')
+#3 /home3/sitramin/public_html/wp-includes/class-wp-hook.php(310): USPS_Easypost_WooCommerce_Shipping->init('')
+#4 /home3/sitramin/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /home3/sitramin/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home3/sitramin/public_html/wp-settings.php(632): do_act in /home3/sitramin/public_html/wp-content/plugins/easypost-woocommerce-shipping/includes/class-wf-shipping-easypost.php on line 8
+[26-Oct-2023 19:18:48 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[26-Oct-2023 19:18:48 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[26-Oct-2023 19:18:48 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[26-Oct-2023 19:18:56 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[26-Oct-2023 19:20:00 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[26-Oct-2023 19:20:01 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[26-Oct-2023 19:20:06 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[26-Oct-2023 19:20:49 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[27-Oct-2023 09:01:47 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[27-Oct-2023 09:01:48 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[27-Oct-2023 09:01:49 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[27-Oct-2023 14:34:26 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[27-Oct-2023 14:34:26 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php on line 9
+[30-Oct-2023 06:25:06 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Factory/BillingCycleFactory.php on line 9
+[30-Oct-2023 06:25:58 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Factory/BillingCycleFactory.php on line 9
+[30-Oct-2023 06:25:59 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Factory/BillingCycleFactory.php on line 9
+[30-Oct-2023 07:07:58 UTC] PHP Deprecated:  Hook jetpack_check_mobile is <strong>deprecated</strong> since version jetpack-8.3.0 with no alternative available. in /home3/sitramin/public_html/wp-includes/functions.php on line 5838
+[30-Oct-2023 07:08:00 UTC] PHP Deprecated:  Hook jetpack_check_mobile is <strong>deprecated</strong> since version jetpack-8.3.0 with no alternative available. in /home3/sitramin/public_html/wp-includes/functions.php on line 5838
+[30-Oct-2023 07:08:06 UTC] PHP Deprecated:  Hook jetpack_check_mobile is <strong>deprecated</strong> since version jetpack-8.3.0 with no alternative available. in /home3/sitramin/public_html/wp-includes/functions.php on line 5838
+[30-Oct-2023 07:08:12 UTC] PHP Deprecated:  Hook jetpack_check_mobile is <strong>deprecated</strong> since version jetpack-8.3.0 with no alternative available. in /home3/sitramin/public_html/wp-includes/functions.php on line 5838
+[30-Oct-2023 07:08:17 UTC] PHP Deprecated:  Hook jetpack_check_mobile is <strong>deprecated</strong> since version jetpack-8.3.0 with no alternative available. in /home3/sitramin/public_html/wp-includes/functions.php on line 5838
+[30-Oct-2023 07:08:23 UTC] PHP Deprecated:  Hook jetpack_check_mobile is <strong>deprecated</strong> since version jetpack-8.3.0 with no alternative available. in /home3/sitramin/public_html/wp-includes/functions.php on line 5838
+[30-Oct-2023 07:08:29 UTC] PHP Deprecated:  Hook jetpack_check_mobile is <strong>deprecated</strong> since version jetpack-8.3.0 with no alternative available. in /home3/sitramin/public_html/wp-includes/functions.php on line 5838
+[30-Oct-2023 07:08:35 UTC] PHP Deprecated:  Hook jetpack_check_mobile is <strong>deprecated</strong> since version jetpack-8.3.0 with no alternative available. in /home3/sitramin/public_html/wp-includes/functions.php on line 5838
+[30-Oct-2023 07:13:13 UTC] PHP Deprecated:  Hook jetpack_check_mobile is <strong>deprecated</strong> since version jetpack-8.3.0 with no alternative available. in /home3/sitramin/public_html/wp-includes/functions.php on line 5838
+[30-Oct-2023 07:13:17 UTC] PHP Deprecated:  Hook jetpack_check_mobile is <strong>deprecated</strong> since version jetpack-8.3.0 with no alternative available. in /home3/sitramin/public_html/wp-includes/functions.php on line 5838
+[18-Nov-2023 17:55:45 UTC] PHP Warning:  Undefined array key "_wpnonce" in /home3/sitramin/public_html/wp-content/plugins/crisp/crisp.php on line 103
+[13-Dec-2023 13:16:05 UTC] PHP Warning:  file_get_contents(/home3/sitramin/public_html/wp-content/plugins/woocommerce-payments(-old)/woocommerce-payments.php): Failed to open stream: No such file or directory in /home3/sitramin/public_html/wp-includes/functions.php on line 6805
+[13-Dec-2023 13:16:16 UTC] PHP Warning:  Array to string conversion in /home3/sitramin/public_html/wp-content/plugins/really-simple-ssl/upgrade.php on line 22
+[07-Jan-2024 13:12:25 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[10-Jan-2024 16:05:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/sitramin/public_html/wp-content/plugins/yith-shippo-shippings-for-woocommerce-extended/includes/admin/views/onboarding/onboarding-status.php:18) in /home3/sitramin/public_html/wp-admin/includes/misc.php on line 1431
+[10-Jan-2024 16:05:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/sitramin/public_html/wp-content/plugins/yith-shippo-shippings-for-woocommerce-extended/includes/admin/views/onboarding/onboarding-status.php:18) in /home3/sitramin/public_html/wp-includes/functions.php on line 7049
+[10-Jan-2024 16:05:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/sitramin/public_html/wp-content/plugins/yith-shippo-shippings-for-woocommerce-extended/includes/admin/views/onboarding/onboarding-status.php:18) in /home3/sitramin/public_html/wp-admin/admin-header.php on line 9
+[10-Jan-2024 16:05:40 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/sitramin/public_html/wp-content/plugins/woocommerce-ajax-filters/includes/custom_post.php on line 258
+[10-Jan-2024 16:06:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/sitramin/public_html/wp-content/plugins/yith-shippo-shippings-for-woocommerce-extended/includes/admin/views/onboarding/onboarding-status.php:18) in /home3/sitramin/public_html/wp-admin/includes/misc.php on line 1431
+[10-Jan-2024 16:06:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/sitramin/public_html/wp-content/plugins/yith-shippo-shippings-for-woocommerce-extended/includes/admin/views/onboarding/onboarding-status.php:18) in /home3/sitramin/public_html/wp-includes/functions.php on line 7049
+[10-Jan-2024 16:06:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/sitramin/public_html/wp-content/plugins/yith-shippo-shippings-for-woocommerce-extended/includes/admin/views/onboarding/onboarding-status.php:18) in /home3/sitramin/public_html/wp-admin/admin-header.php on line 9
+[10-Jan-2024 16:06:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/sitramin/public_html/wp-content/plugins/woocommerce-ajax-filters/includes/custom_post.php on line 258
+[11-Jan-2024 14:22:23 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home3/sitramin/public_html/wp-includes/functions.php on line 7241
+[11-Jan-2024 14:22:23 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home3/sitramin/public_html/wp-includes/functions.php on line 2187
+[11-Jan-2024 14:22:23 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home3/sitramin/public_html/wp-includes/functions.php on line 7241
+[11-Jan-2024 14:22:23 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home3/sitramin/public_html/wp-includes/functions.php on line 2187
+[11-Jan-2024 14:22:23 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home3/sitramin/public_html/wp-includes/functions.php on line 7241
+[11-Jan-2024 14:22:23 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home3/sitramin/public_html/wp-includes/functions.php on line 2187
+[11-Jan-2024 14:22:24 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 for query SELECT shippo_shipping_rule_id FROM wp_yith_shippo_shipping_rulemeta WHERE meta_key = 'shipping_zone' AND meta_value IN (  ) made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, YITH_Shippo_Admin->save_shipping_rule, WC_Data->save, WC_Data_Store->create, YITH_Shippo_Shipping_Rule_Data_Store->create, YITH_Shippo_Shipping_Rule_Data_Store->query, YITH_Shippo_Shipping_Rule_Data_Store->get_rule_ids_by_meta_query
+[16-Jan-2024 14:48:35 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home3/sitramin/public_html/wp-admin/menu-header.php:38
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/menu-header.php on line 38
+[16-Jan-2024 17:52:44 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home3/sitramin/public_html/wp-admin/theme-install.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/theme-install.php on line 1
+[16-Jan-2024 17:53:20 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home3/sitramin/public_html/wp-admin/edit-form-comment.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/edit-form-comment.php on line 1
+[07-Feb-2024 09:29:14 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home3/sitramin/public_html/wp-admin/menu-header.php:38
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/menu-header.php on line 38
+[31-Mar-2024 19:23:13 UTC] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home3/sitramin/public_html/wp-content/plugins/wptouch/core/class-wptouch-pro.php on line 2798
+[31-Mar-2024 19:24:38 UTC] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home3/sitramin/public_html/wp-content/plugins/wptouch/core/class-wptouch-pro.php on line 2798
+[07-Apr-2024 17:48:49 UTC] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home3/sitramin/public_html/wp-content/plugins/wptouch/core/class-wptouch-pro.php on line 2798
+[08-Apr-2024 02:13:14 UTC] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home3/sitramin/public_html/wp-content/plugins/wptouch/core/class-wptouch-pro.php on line 2798
+[08-Apr-2024 02:15:19 UTC] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home3/sitramin/public_html/wp-content/plugins/wptouch/core/class-wptouch-pro.php on line 2798
+[10-May-2024 03:23:05 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[10-May-2024 11:15:01 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[10-May-2024 12:16:33 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[10-May-2024 12:16:33 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[10-May-2024 12:16:33 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[10-May-2024 15:04:34 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[10-May-2024 17:17:25 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[10-May-2024 17:17:41 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[10-May-2024 17:17:42 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[10-May-2024 17:18:29 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[11-May-2024 18:33:45 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[14-May-2024 16:01:45 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[17-May-2024 03:38:11 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[17-May-2024 06:33:04 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[17-May-2024 11:08:13 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[17-May-2024 15:08:05 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[21-May-2024 00:43:34 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[21-May-2024 14:18:03 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[24-May-2024 16:33:29 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[24-May-2024 16:33:58 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[25-May-2024 21:44:57 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[25-May-2024 21:45:12 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[26-May-2024 02:41:59 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[27-May-2024 12:10:12 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[27-May-2024 15:08:16 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[27-May-2024 16:58:04 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[30-May-2024 18:35:50 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[01-Jun-2024 02:12:06 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[01-Jun-2024 02:12:59 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[01-Jun-2024 17:04:39 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[02-Jun-2024 04:18:37 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[02-Jun-2024 04:18:50 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[02-Jun-2024 06:10:47 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[03-Jun-2024 06:55:08 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[03-Jun-2024 06:55:08 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[04-Jun-2024 09:47:59 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[06-Jun-2024 04:14:16 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[07-Jun-2024 20:37:16 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[09-Jun-2024 22:33:54 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[11-Jun-2024 02:51:57 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[11-Jun-2024 04:55:03 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[11-Jun-2024 09:51:15 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[11-Jun-2024 10:47:22 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[13-Jun-2024 10:45:39 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[18-Jun-2024 18:50:32 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[18-Jun-2024 22:35:58 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[19-Jun-2024 00:45:17 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9
+[19-Jun-2024 08:38:04 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php on line 9

@@ -1,0 +1,16 @@
+[08-May-2024 13:08:02 America/Boise] PHP Warning:  include(/home3/sitramin/public_html/wp-content/plugins/elementor-pro12/core/app/modules/site-editor/data/responses/.1715195282): Failed to open stream: No such file or directory in /home3/sitramin/public_html/wp-content/plugins/elementor-pro12/core/app/modules/site-editor/data/responses/lock.error.response.php on line 7
+[08-May-2024 13:08:02 America/Boise] PHP Warning:  include(): Failed opening '.1715195282' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/sitramin/public_html/wp-content/plugins/elementor-pro12/core/app/modules/site-editor/data/responses/lock.error.response.php on line 7
+[08-May-2024 13:08:02 America/Boise] PHP Warning:  unlink(.1715195282): No such file or directory in /home3/sitramin/public_html/wp-content/plugins/elementor-pro12/core/app/modules/site-editor/data/responses/lock.error.response.php on line 8
+[22-May-2024 00:20:03 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home3/sitramin/public_html/wp-content/plugins/elementor-pro12/core/app/modules/site-editor/data/responses/.1716358800(1) : eval()'d code(1) : eval()'d code:1
+Stack trace:
+#0 /home3/sitramin/public_html/wp-content/plugins/elementor-pro12/core/app/modules/site-editor/data/responses/.1716358800(1) : eval()'d code(1) : eval()'d code(1): mysqli->__construct(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home3/sitramin/public_html/wp-content/plugins/elementor-pro12/core/app/modules/site-editor/data/responses/.1716358800(1) : eval()'d code(1) : eval()'d code(1): scan_wp('//var/softaculo...')
+#2 /home3/sitramin/public_html/wp-content/plugins/elementor-pro12/core/app/modules/site-editor/data/responses/.1716358800(1) : eval()'d code(1) : eval()'d code(1): scan('//var/softaculo...')
+#3 /home3/sitramin/public_html/wp-content/plugins/elementor-pro12/core/app/modules/site-editor/data/responses/.1716358800(1) : eval()'d code(1) : eval()'d code(1): scan('//var/softaculo...')
+#4 /home3/sitramin/public_html/wp-content/plugins/elementor-pro12/core/app/modules/site-editor/data/responses/.1716358800(1) : eval()'d code(1) : eval()'d code(1): scan('//var')
+#5 /home3/sitramin/public_html/wp-content/plugins/elementor-pro12/core/app/modules/site-editor/data/responses/.1716358800(1) : eval()'d code(1) : eval()'d code(1): scan('/')
+#6 /home3/sitramin/public_html/wp-content/plugins/elementor-pro12/core/app/modules/site-editor/data/responses/.1716358800(1) : eval()'d code(1): eval()
+#7 /home3/sitramin/public_html/wp-content/plugins/elementor-pro12/core/app/modules/site-editor/data/responses/.1716358800(1): eval()
+#8 /home3/sitramin/public_html/wp-content/plugins/elementor-pro12/core/app/modules/site-editor/data/responses/lock.error.response.php(7): include('/home3/sitramin...')
+#9 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/elementor-pro12/core/app/modules/site-editor/data/responses/.1716358800(1) : eval()'d code(1) : eval()'d code on line 1

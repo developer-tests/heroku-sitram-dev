@@ -1,0 +1,1 @@
+[07-May-2024 16:38:27 America/Boise] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDO/Statement.php on line 3

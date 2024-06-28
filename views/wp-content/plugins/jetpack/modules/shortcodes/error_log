@@ -1,0 +1,28 @@
+[25-Apr-2024 07:12:46 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/shortcodes/archiveorg.php:102
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/shortcodes/archiveorg.php on line 102
+[09-May-2024 00:17:07 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/shortcodes/archiveorg.php:102
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/shortcodes/archiveorg.php on line 102
+[30-May-2024 06:41:03 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/shortcodes/archiveorg.php:102
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/shortcodes/archiveorg.php on line 102
+[30-May-2024 06:41:24 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/shortcodes/archiveorg.php:102
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/shortcodes/archiveorg.php on line 102
+[05-Jun-2024 10:21:58 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/shortcodes/archiveorg.php:102
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/shortcodes/archiveorg.php on line 102
+[05-Jun-2024 10:22:15 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/shortcodes/archiveorg.php:102
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/shortcodes/archiveorg.php on line 102
+[05-Jun-2024 10:22:58 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/shortcodes/archiveorg.php:102
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/shortcodes/archiveorg.php on line 102

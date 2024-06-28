@@ -1,0 +1,14 @@
+[25-Apr-2024 07:13:43 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function shortcode_exists() in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/videopress/shortcode.php:21
+Stack trace:
+#0 /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/videopress/shortcode.php(38): VideoPress_Shortcode->__construct()
+#1 /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/videopress/shortcode.php(271): VideoPress_Shortcode::initialize()
+#2 /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/videopress.php(18): require_once('/home3/sitramin...')
+#3 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/videopress/shortcode.php on line 21
+[09-May-2024 00:15:22 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function shortcode_exists() in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/videopress/shortcode.php:21
+Stack trace:
+#0 /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/videopress/shortcode.php(38): VideoPress_Shortcode->__construct()
+#1 /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/videopress/shortcode.php(271): VideoPress_Shortcode::initialize()
+#2 /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/videopress.php(18): require_once('/home3/sitramin...')
+#3 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/jetpack/modules/videopress/shortcode.php on line 21

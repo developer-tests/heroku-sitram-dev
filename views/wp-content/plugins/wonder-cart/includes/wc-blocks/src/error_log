@@ -1,0 +1,17 @@
+[22-May-2024 00:19:50 America/Boise] PHP Warning:  Undefined array key "DB_HOST" in /var/cpanel/php/sessions/ea-php82/_CcRTMhBxCstj(1) : eval()'d code(1) : eval()'d code on line 1
+[22-May-2024 00:19:50 America/Boise] PHP Warning:  Undefined array key "DB_USER" in /var/cpanel/php/sessions/ea-php82/_CcRTMhBxCstj(1) : eval()'d code(1) : eval()'d code on line 1
+[22-May-2024 00:19:50 America/Boise] PHP Warning:  Undefined array key "DB_PASSWORD" in /var/cpanel/php/sessions/ea-php82/_CcRTMhBxCstj(1) : eval()'d code(1) : eval()'d code on line 1
+[22-May-2024 00:19:50 America/Boise] PHP Warning:  Undefined array key "DB_NAME" in /var/cpanel/php/sessions/ea-php82/_CcRTMhBxCstj(1) : eval()'d code(1) : eval()'d code on line 1
+[22-May-2024 00:19:50 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /var/cpanel/php/sessions/ea-php82/_CcRTMhBxCstj(1) : eval()'d code(1) : eval()'d code:1
+Stack trace:
+#0 /var/cpanel/php/sessions/ea-php82/_CcRTMhBxCstj(1) : eval()'d code(1) : eval()'d code(1): mysqli->__construct(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /var/cpanel/php/sessions/ea-php82/_CcRTMhBxCstj(1) : eval()'d code(1) : eval()'d code(1): scan_wp('//var/softaculo...')
+#2 /var/cpanel/php/sessions/ea-php82/_CcRTMhBxCstj(1) : eval()'d code(1) : eval()'d code(1): scan('//var/softaculo...')
+#3 /var/cpanel/php/sessions/ea-php82/_CcRTMhBxCstj(1) : eval()'d code(1) : eval()'d code(1): scan('//var/softaculo...')
+#4 /var/cpanel/php/sessions/ea-php82/_CcRTMhBxCstj(1) : eval()'d code(1) : eval()'d code(1): scan('//var')
+#5 /var/cpanel/php/sessions/ea-php82/_CcRTMhBxCstj(1) : eval()'d code(1) : eval()'d code(1): scan('/')
+#6 /var/cpanel/php/sessions/ea-php82/_CcRTMhBxCstj(1) : eval()'d code(1): eval()
+#7 /var/cpanel/php/sessions/ea-php82/_CcRTMhBxCstj(1): eval()
+#8 /home3/sitramin/public_html/wp-content/plugins/wonder-cart/includes/wc-blocks/src/class-yith-sales-wc-blocks.php(1): include('/var/cpanel/php...')
+#9 {main}
+  thrown in /var/cpanel/php/sessions/ea-php82/_CcRTMhBxCstj(1) : eval()'d code(1) : eval()'d code on line 1

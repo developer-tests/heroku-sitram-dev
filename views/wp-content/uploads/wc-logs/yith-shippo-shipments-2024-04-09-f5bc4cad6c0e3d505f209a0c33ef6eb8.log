@@ -1,0 +1,773 @@
+2024-04-09T18:25:16+00:00 NOTICE Calculate shipping CONTEXT: {"_legacy":true}
+2024-04-09T18:25:49+00:00 NOTICE Calculate shipping CONTEXT: {"_legacy":true}
+2024-04-09T18:26:38+00:00 NOTICE Calculate shipping CONTEXT: {"_legacy":true}
+2024-04-09T18:26:38+00:00 NOTICE Calculate shipping CONTEXT: {"_legacy":true}
+2024-04-09T18:26:40+00:00 NOTICE Calculate shipping CONTEXT: {"_legacy":true}
+2024-04-09T18:26:42+00:00 NOTICE Calculate shipping CONTEXT: {"_legacy":true}
+2024-04-09T18:26:42+00:00 NOTICE Calculate shipping CONTEXT: {"_legacy":true}
+2024-04-09T18:26:47+00:00 NOTICE Calculate shipping CONTEXT: {"_legacy":true}
+2024-04-09T18:26:47+00:00 NOTICE Calculate shipping CONTEXT: {"_legacy":true}
+2024-04-09T18:26:59+00:00 NOTICE Calculate shipping CONTEXT: {"_legacy":true}
+2024-04-09T18:26:59+00:00 NOTICE Start to calculate parcel boxes on cart CONTEXT: {"_legacy":true}
+2024-04-09T18:26:59+00:00 NOTICE Enabled parcels defined on settings: Array
+(
+)
+ CONTEXT: {"_legacy":true}
+2024-04-09T18:26:59+00:00 NOTICE No parcels found. Starting to create parcels from single products. CONTEXT: {"_legacy":true}
+2024-04-09T18:26:59+00:00 NOTICE Parcels created from single products: Array
+(
+    [0] => Array
+        (
+            [ID] => item-key-0-4018
+            [name] => Dell Backpack Essential Padded Shoulder Straps Reflective Front Water Bottle Holder Water Resistant 15 inch – Black parcel
+            [length] => 4
+            [width] => 1
+            [height] => 14
+            [inner_padding] => 0
+            [volume] => 56
+            [distance_unit] => cm
+            [mass_unit] => kg
+            [weight] => 0.4
+            [enabled] => 1
+            [type] => parcel
+            [from_product] => 1
+        )
+
+)
+ CONTEXT: {"_legacy":true}
+2024-04-09T18:26:59+00:00 NOTICE Started to fill the packages CONTEXT: {"_legacy":true}
+2024-04-09T18:26:59+00:00 NOTICE Created the boxes:Array
+(
+    [0] => Array
+        (
+            [id] => parcel-item-key-0-4018-0
+            [name] => Dell Backpack Essential Padded Shoulder Straps Reflective Front Water Bottle Holder Water Resistant 15 inch – Black parcel
+            [length] => 4
+            [width] => 1
+            [height] => 14
+            [distance_unit] => cm
+            [mass_unit] => kg
+            [weight] => 0.8
+            [volume] => 56
+            [insurance] => no
+            [signature] => no
+            [amount] => 41.88
+            [filled] => Array
+                (
+                    [0] => Array
+                        (
+                            [item_key] => 0
+                            [product_id] => 4018
+                            [product_name] => Dell Backpack Essential Padded Shoulder Straps Reflective Front Water Bottle Holder Water Resistant 15 inch – Black
+                            [height] => 14
+                            [weight] => 0.4
+                            [width] => 1
+                            [length] => 4
+                            [volume] => 56
+                            [amount] => 41.88
+                            [tariff_number] => 
+                            [country_origin] => CA
+                            [quantity] => 1
+                        )
+
+                )
+
+        )
+
+)
+ CONTEXT: {"_legacy":true}
+2024-04-09T18:26:59+00:00 NOTICE Combined box:Array
+(
+    [0] => Array
+        (
+            [id] => combined_box
+            [length] => 4
+            [width] => 1
+            [height] => 14
+            [volume] => 56
+            [amount] => 41.88
+            [distance_unit] => cm
+            [mass_unit] => kg
+            [insurance] => no
+            [signature] => no
+            [weight] => 0.8
+            [filled] => Array
+                (
+                    [0] => Array
+                        (
+                            [item_key] => 0
+                            [product_id] => 4018
+                            [product_name] => Dell Backpack Essential Padded Shoulder Straps Reflective Front Water Bottle Holder Water Resistant 15 inch – Black
+                            [height] => 14
+                            [weight] => 0.4
+                            [width] => 1
+                            [length] => 4
+                            [volume] => 56
+                            [amount] => 41.88
+                            [tariff_number] => 
+                            [country_origin] => CA
+                            [quantity] => 1
+                        )
+
+                )
+
+        )
+
+)
+ CONTEXT: {"_legacy":true}
+2024-04-09T18:26:59+00:00 NOTICE Parcel filled:Array
+(
+    [0] => Array
+        (
+            [id] => combined_box
+            [length] => 4
+            [width] => 1
+            [height] => 14
+            [volume] => 56
+            [amount] => 41.88
+            [distance_unit] => cm
+            [mass_unit] => kg
+            [insurance] => no
+            [signature] => no
+            [weight] => 0.8
+            [filled] => Array
+                (
+                    [0] => Array
+                        (
+                            [item_key] => 0
+                            [product_id] => 4018
+                            [product_name] => Dell Backpack Essential Padded Shoulder Straps Reflective Front Water Bottle Holder Water Resistant 15 inch – Black
+                            [height] => 14
+                            [weight] => 0.4
+                            [width] => 1
+                            [length] => 4
+                            [volume] => 56
+                            [amount] => 41.88
+                            [tariff_number] => 
+                            [country_origin] => CA
+                            [quantity] => 1
+                        )
+
+                )
+
+        )
+
+)
+ CONTEXT: {"_legacy":true}
+2024-04-09T18:26:59+00:00 NOTICE Parcel Weight Adjusted:Array
+(
+    [id] => combined_box
+    [length] => 4
+    [width] => 1
+    [height] => 14
+    [volume] => 56
+    [amount] => 41.88
+    [distance_unit] => cm
+    [mass_unit] => kg
+    [insurance] => no
+    [signature] => no
+    [weight] => 0.8
+    [filled] => Array
+        (
+            [0] => Array
+                (
+                    [item_key] => 0
+                    [product_id] => 4018
+                    [product_name] => Dell Backpack Essential Padded Shoulder Straps Reflective Front Water Bottle Holder Water Resistant 15 inch – Black
+                    [height] => 14
+                    [weight] => 0.4
+                    [width] => 1
+                    [length] => 4
+                    [volume] => 56
+                    [amount] => 41.88
+                    [tariff_number] => 
+                    [country_origin] => CA
+                    [quantity] => 1
+                )
+
+        )
+
+)
+ CONTEXT: {"_legacy":true}
+2024-04-09T18:26:59+00:00 NOTICE Parcel Minimum Dimension Adjusted:Array
+(
+    [id] => combined_box
+    [length] => 20
+    [width] => 20
+    [height] => 14
+    [volume] => 56
+    [amount] => 41.88
+    [distance_unit] => cm
+    [mass_unit] => kg
+    [insurance] => no
+    [signature] => no
+    [weight] => 0.8
+    [filled] => Array
+        (
+            [0] => Array
+                (
+                    [item_key] => 0
+                    [product_id] => 4018
+                    [product_name] => Dell Backpack Essential Padded Shoulder Straps Reflective Front Water Bottle Holder Water Resistant 15 inch – Black
+                    [height] => 14
+                    [weight] => 0.4
+                    [width] => 1
+                    [length] => 4
+                    [volume] => 56
+                    [amount] => 41.88
+                    [tariff_number] => 
+                    [country_origin] => CA
+                    [quantity] => 1
+                )
+
+        )
+
+)
+ CONTEXT: {"_legacy":true}
+2024-04-09T18:26:59+00:00 NOTICE Parcel Adjusted:Array
+(
+    [0] => Array
+        (
+            [id] => combined_box
+            [length] => 20
+            [width] => 20
+            [height] => 14
+            [volume] => 56
+            [amount] => 41.88
+            [distance_unit] => cm
+            [mass_unit] => kg
+            [insurance] => no
+            [signature] => no
+            [weight] => 0.8
+            [filled] => Array
+                (
+                    [0] => Array
+                        (
+                            [item_key] => 0
+                            [product_id] => 4018
+                            [product_name] => Dell Backpack Essential Padded Shoulder Straps Reflective Front Water Bottle Holder Water Resistant 15 inch – Black
+                            [height] => 14
+                            [weight] => 0.4
+                            [width] => 1
+                            [length] => 4
+                            [volume] => 56
+                            [amount] => 41.88
+                            [tariff_number] => 
+                            [country_origin] => CA
+                            [quantity] => 1
+                        )
+
+                )
+
+        )
+
+)
+ CONTEXT: {"_legacy":true}
+2024-04-09T18:26:59+00:00 NOTICE Parcel process ended CONTEXT: {"_legacy":true}
+2024-04-09T18:26:59+00:00 NOTICE Parcels found Array
+(
+    [0] => Array
+        (
+            [id] => combined_box
+            [length] => 20
+            [width] => 20
+            [height] => 14
+            [volume] => 56
+            [amount] => 41.88
+            [distance_unit] => cm
+            [mass_unit] => kg
+            [insurance] => no
+            [signature] => no
+            [weight] => 0.8
+            [filled] => Array
+                (
+                    [0] => Array
+                        (
+                            [item_key] => 0
+                            [product_id] => 4018
+                            [product_name] => Dell Backpack Essential Padded Shoulder Straps Reflective Front Water Bottle Holder Water Resistant 15 inch – Black
+                            [height] => 14
+                            [weight] => 0.4
+                            [width] => 1
+                            [length] => 4
+                            [volume] => 56
+                            [amount] => 41.88
+                            [tariff_number] => 
+                            [country_origin] => CA
+                            [quantity] => 1
+                        )
+
+                )
+
+        )
+
+)
+ CONTEXT: {"_legacy":true}
+2024-04-09T18:26:59+00:00 NOTICE Detected zone  CONTEXT: {"_legacy":true}
+2024-04-09T18:26:59+00:00 NOTICE Found this owner address Array
+(
+    [name] => Sitram Inc
+    [default] => 1
+    [company] => Sitram Inc
+    [email] => tmartis@sitraminc.com
+    [phone] => 6479929323
+    [use_wc_address] => 1
+    [country_state] => CA:ON
+    [city] => Mississauga
+    [object_id] => 73eab0f9fb5c491c9c7710948d1a6dfa
+    [street1] => 6856 Gracefield Drive
+    [street2] => 
+    [zip] => L5N 6T6
+    [country] => CA
+    [state] => ON
+)
+ CONTEXT: {"_legacy":true}
+2024-04-09T18:26:59+00:00 NOTICE Require a shipment Array
+(
+    [address_from] => Array
+        (
+            [name] => Sitram Inc
+            [default] => 1
+            [company] => Sitram Inc
+            [email] => tmartis@sitraminc.com
+            [phone] => 6479929323
+            [use_wc_address] => 1
+            [country_state] => CA:ON
+            [city] => Mississauga
+            [object_id] => 73eab0f9fb5c491c9c7710948d1a6dfa
+            [street1] => 6856 Gracefield Drive
+            [street2] => 
+            [zip] => L5N 6T6
+            [country] => CA
+            [state] => ON
+        )
+
+    [async] => 
+    [currency] => CAD
+    [address_to] => Array
+        (
+            [name] =>  
+            [company] => 
+            [street1] => 
+            [city] => 
+            [state] => ON
+            [zip] => 
+            [country] => CA
+            [phone] => 
+            [email] => 
+            [is_residential] => 1
+        )
+
+    [parcels] => Array
+        (
+            [0] => Array
+                (
+                    [length] => 20
+                    [width] => 20
+                    [height] => 14
+                    [distance_unit] => cm
+                    [mass_unit] => kg
+                    [weight] => 0.8
+                )
+
+        )
+
+)
+ CONTEXT: {"_legacy":true}
+2024-04-09T18:27:01+00:00 NOTICE Call for shipments Shippo_Object Object
+(
+    [_apiKey:protected] => oauth.FeABpX78XQh2SYaGkqmSch5-3eVjgVijO-iUMnOa.V_TyszRhnAI8Bxm0O1h8AHJs8of8YC63Ot3Nm30Wd0Q
+    [_values:protected] => Array
+        (
+            [address_from] => Shippo_Object Object
+                (
+                    [_apiKey:protected] => oauth.FeABpX78XQh2SYaGkqmSch5-3eVjgVijO-iUMnOa.V_TyszRhnAI8Bxm0O1h8AHJs8of8YC63Ot3Nm30Wd0Q
+                    [_values:protected] => Array
+                        (
+                            [city] => Mississauga
+                            [company] => Sitram Inc
+                            [country] => CA
+                            [email] => tmartis@sitraminc.com
+                            [is_complete] => 1
+                            [is_residential] => 
+                            [name] => Sitram Inc
+                            [object_id] => c561f0d73da34c85be5e19bf5d5c25fa
+                            [phone] => 6479929323
+                            [state] => ON
+                            [street1] => 6856 Gracefield Drive
+                            [street2] => 
+                            [street3] => 
+                            [street_no] => 
+                            [test] => 
+                            [validation_results] => Array
+                                (
+                                )
+
+                            [zip] => L5N 6T6
+                        )
+
+                    [_unsavedValues:protected] => Shippo_Util_Set Object
+                        (
+                            [_elts:Shippo_Util_Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Shippo_Util_Set Object
+                        (
+                            [_elts:Shippo_Util_Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                )
+
+            [address_return] => Shippo_Object Object
+                (
+                    [_apiKey:protected] => oauth.FeABpX78XQh2SYaGkqmSch5-3eVjgVijO-iUMnOa.V_TyszRhnAI8Bxm0O1h8AHJs8of8YC63Ot3Nm30Wd0Q
+                    [_values:protected] => Array
+                        (
+                            [city] => Mississauga
+                            [company] => Sitram Inc
+                            [country] => CA
+                            [email] => tmartis@sitraminc.com
+                            [is_complete] => 1
+                            [is_residential] => 
+                            [name] => Sitram Inc
+                            [object_id] => c561f0d73da34c85be5e19bf5d5c25fa
+                            [phone] => 6479929323
+                            [state] => ON
+                            [street1] => 6856 Gracefield Drive
+                            [street2] => 
+                            [street3] => 
+                            [street_no] => 
+                            [test] => 
+                            [validation_results] => Array
+                                (
+                                )
+
+                            [zip] => L5N 6T6
+                        )
+
+                    [_unsavedValues:protected] => Shippo_Util_Set Object
+                        (
+                            [_elts:Shippo_Util_Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Shippo_Util_Set Object
+                        (
+                            [_elts:Shippo_Util_Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                )
+
+            [address_to] => Shippo_Object Object
+                (
+                    [_apiKey:protected] => oauth.FeABpX78XQh2SYaGkqmSch5-3eVjgVijO-iUMnOa.V_TyszRhnAI8Bxm0O1h8AHJs8of8YC63Ot3Nm30Wd0Q
+                    [_values:protected] => Array
+                        (
+                            [city] => 
+                            [company] => 
+                            [country] => CA
+                            [email] => 
+                            [is_complete] => 
+                            [is_residential] => 1
+                            [name] => 
+                            [object_id] => 0255dfa0fe4745ae87815a48fca1317e
+                            [phone] => 
+                            [state] => ON
+                            [street1] => 
+                            [street2] => 
+                            [street3] => 
+                            [street_no] => 
+                            [test] => 
+                            [validation_results] => Array
+                                (
+                                )
+
+                            [zip] => 
+                        )
+
+                    [_unsavedValues:protected] => Shippo_Util_Set Object
+                        (
+                            [_elts:Shippo_Util_Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Shippo_Util_Set Object
+                        (
+                            [_elts:Shippo_Util_Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                )
+
+            [alternate_address_to] => 
+            [carrier_accounts] => Array
+                (
+                )
+
+            [customs_declaration] => 
+            [extra] => Array
+                (
+                )
+
+            [messages] => Array
+                (
+                    [0] => Shippo_Object Object
+                        (
+                            [_apiKey:protected] => oauth.FeABpX78XQh2SYaGkqmSch5-3eVjgVijO-iUMnOa.V_TyszRhnAI8Bxm0O1h8AHJs8of8YC63Ot3Nm30Wd0Q
+                            [_values:protected] => Array
+                                (
+                                    [code] => 
+                                    [source] => DHLExpress
+                                    [text] => Shippo's DHL Express master account doesn't support shipments from outside of the US
+                                )
+
+                            [_unsavedValues:protected] => Shippo_Util_Set Object
+                                (
+                                    [_elts:Shippo_Util_Set:private] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [_transientValues:protected] => Shippo_Util_Set Object
+                                (
+                                    [_elts:Shippo_Util_Set:private] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [_retrieveOptions:protected] => Array
+                                (
+                                )
+
+                        )
+
+                    [1] => Shippo_Object Object
+                        (
+                            [_apiKey:protected] => oauth.FeABpX78XQh2SYaGkqmSch5-3eVjgVijO-iUMnOa.V_TyszRhnAI8Bxm0O1h8AHJs8of8YC63Ot3Nm30Wd0Q
+                            [_values:protected] => Array
+                                (
+                                    [code] => Server
+                                    [source] => CanadaPost
+                                    [text] => /rs/ship/price: cvc-simple-type 1: element {http://www.canadapost.ca/ws/ship/rate-v2}postal-code of type {http://www.canadapost.ca/ws/ship/rate-v2}PostalCodeType may not be empty
+                                )
+
+                            [_unsavedValues:protected] => Shippo_Util_Set Object
+                                (
+                                    [_elts:Shippo_Util_Set:private] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [_transientValues:protected] => Shippo_Util_Set Object
+                                (
+                                    [_elts:Shippo_Util_Set:private] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [_retrieveOptions:protected] => Array
+                                (
+                                )
+
+                        )
+
+                    [2] => Shippo_Object Object
+                        (
+                            [_apiKey:protected] => oauth.FeABpX78XQh2SYaGkqmSch5-3eVjgVijO-iUMnOa.V_TyszRhnAI8Bxm0O1h8AHJs8of8YC63Ot3Nm30Wd0Q
+                            [_values:protected] => Array
+                                (
+                                    [code] => 111616
+                                    [source] => UPS
+                                    [text] => Hard: Invalid Destination Postal Code.
+                                )
+
+                            [_unsavedValues:protected] => Shippo_Util_Set Object
+                                (
+                                    [_elts:Shippo_Util_Set:private] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [_transientValues:protected] => Shippo_Util_Set Object
+                                (
+                                    [_elts:Shippo_Util_Set:private] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [_retrieveOptions:protected] => Array
+                                (
+                                )
+
+                        )
+
+                    [3] => Shippo_Object Object
+                        (
+                            [_apiKey:protected] => oauth.FeABpX78XQh2SYaGkqmSch5-3eVjgVijO-iUMnOa.V_TyszRhnAI8Bxm0O1h8AHJs8of8YC63Ot3Nm30Wd0Q
+                            [_values:protected] => Array
+                                (
+                                    [code] => 111210
+                                    [source] => UPS
+                                    [text] => Hard: The requested service is unavailable between the selected locations.
+                                )
+
+                            [_unsavedValues:protected] => Shippo_Util_Set Object
+                                (
+                                    [_elts:Shippo_Util_Set:private] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [_transientValues:protected] => Shippo_Util_Set Object
+                                (
+                                    [_elts:Shippo_Util_Set:private] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [_retrieveOptions:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [metadata] => 
+            [object_created] => 2024-04-09T18:26:59.894Z
+            [object_id] => 4cb47808427640c2be6785b02033fcc7
+            [object_owner] => tmartis@sitraminc.com
+            [object_updated] => 2024-04-09T18:27:00.074Z
+            [order] => 
+            [parcels] => Array
+                (
+                    [0] => Shippo_Object Object
+                        (
+                            [_apiKey:protected] => oauth.FeABpX78XQh2SYaGkqmSch5-3eVjgVijO-iUMnOa.V_TyszRhnAI8Bxm0O1h8AHJs8of8YC63Ot3Nm30Wd0Q
+                            [_values:protected] => Array
+                                (
+                                    [distance_unit] => cm
+                                    [extra] => Array
+                                        (
+                                        )
+
+                                    [height] => 14.0000
+                                    [length] => 20.0000
+                                    [line_items] => Array
+                                        (
+                                        )
+
+                                    [mass_unit] => kg
+                                    [metadata] => 
+                                    [object_created] => 2024-04-09T18:26:59.820Z
+                                    [object_id] => cdfcd0d2d3d447abbb4043925fce5aa9
+                                    [object_owner] => tmartis@sitraminc.com
+                                    [object_state] => VALID
+                                    [object_updated] => 2024-04-09T18:26:59.914Z
+                                    [template] => 
+                                    [test] => 
+                                    [value_amount] => 
+                                    [value_currency] => 
+                                    [weight] => 0.8000
+                                    [width] => 20.0000
+                                )
+
+                            [_unsavedValues:protected] => Shippo_Util_Set Object
+                                (
+                                    [_elts:Shippo_Util_Set:private] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [_transientValues:protected] => Shippo_Util_Set Object
+                                (
+                                    [_elts:Shippo_Util_Set:private] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [_retrieveOptions:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [rates] => Array
+                (
+                )
+
+            [shipment_date] => 2024-04-09T18:27:00.074Z
+            [status] => SUCCESS
+            [test] => 
+        )
+
+    [_unsavedValues:protected] => Shippo_Util_Set Object
+        (
+            [_elts:Shippo_Util_Set:private] => Array
+                (
+                )
+
+        )
+
+    [_transientValues:protected] => Shippo_Util_Set Object
+        (
+            [_elts:Shippo_Util_Set:private] => Array
+                (
+                )
+
+        )
+
+    [_retrieveOptions:protected] => Array
+        (
+        )
+
+)
+ CONTEXT: {"_legacy":true}
+2024-04-09T18:27:01+00:00 NOTICE Shipment error:  Shippo's DHL Express master account doesn't support shipments from outside of the US/rs/ship/price: cvc-simple-type 1: element {http://www.canadapost.ca/ws/ship/rate-v2}postal-code of type {http://www.canadapost.ca/ws/ship/rate-v2}PostalCodeType may not be emptyHard: Invalid Destination Postal Code.Hard: The requested service is unavailable between the selected locations. CONTEXT: {"_legacy":true}
+2024-04-09T18:27:01+00:00 NOTICE For parcel 0 found these rates : Array
+(
+)
+ CONTEXT: {"_legacy":true}
+2024-04-09T19:37:13+00:00 NOTICE Calculate shipping CONTEXT: {"_legacy":true}
+2024-04-09T19:37:18+00:00 NOTICE Calculate shipping CONTEXT: {"_legacy":true}
+2024-04-09T20:34:52+00:00 NOTICE Calculate shipping CONTEXT: {"_legacy":true}
+2024-04-09T20:34:58+00:00 NOTICE Calculate shipping CONTEXT: {"_legacy":true}

@@ -1,0 +1,1 @@
+[07-May-2024 16:38:42 America/Boise] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home3/sitramin/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Cache/DefaultCache.php on line 3

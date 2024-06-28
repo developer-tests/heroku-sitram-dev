@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+.fixed-top {
+    padding: 30px 0px;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-caption {
+  bottom: 190px;
+}
+
+.carousel-caption h5 {
+      font-size: 50px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    text-align: left;
+    font-weight: 300;
+	margin-bottom: 90px;
+}
+
+.carousel-caption button{
+  background-color: #1d7ac0;
+  color: white;
+  border: none;    
+	float: left;
+    padding: 10px 20px;
+	border-radius: 10px;
+	
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+	margin-right: 20px;
+    font-size: 14px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+	font-size: 14px;
+}
+
+.navbar-toggler {
+  background: #fff;
+}
+
+.navbar-nav {
+  text-align: left;
+}
+
+.nav-link {
+  padding: .2rem 1rem;
+}
+
+.nav-link.active,.nav-link:focus{
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+
+
+
+
+
+/* ignore the code below */
+
+
+.link-area
+{
+  position:fixed;
+  bottom:20px;
+  left:20px;  
+  padding:15px;
+  border-radius:40px;
+  background:tomato;
+}
+.link-area a
+{
+  text-decoration:none;
+  color:#fff;
+  font-size:25px;
+}
+
+
+
+form.example input[type=text] {
+  padding: 1px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: transparent;
+  color: white;
+  border-radius: 5px 0px 0px 5px;
+	padding-left: 10px;
+}
+
+form.example button {
+  float: left;
+  width: 16%;
+  padding: 7px;
+  background: #2196F3;
+  color: white;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 0px 5px 5px 0px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.navbar-expand-lg .navbar-collapse .search{
+	width: 350px;
+    margin-left: 135px;
+	
+}
+
+/*Section Two*/
+
+.section_two{
+	
+	background-color: white;
+	padding: 50px 0px;
+}
+.three_boxes{
+	box-shadow: 0px 0px 2px 2px rgb(179 179 179 / 23%);
+	    border-radius: 20px;
+	padding-bottom:30px;
+}
+.three_boxes .top-three h2{
+	color: #1d7ac0;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px 0px;
+	border-bottom: 3px solid #cccccc;
+	font-weight:400;
+}
+.three_boxes .top-three h2 i{
+	
+	margin-right: 30px;
+    font-weight: 300;
+}
+.three_boxes .top-three p{
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px 0px;
+	font-family: system-ui;
+    font-size: 19px;
+    letter-spacing: 1px;
+	color: #444444;
+}
+
+/*Section Three*/
+
+.section_three{
+	
+	background-color: #e4e6e8;padding: 80px 0px;
+}
+.our_products h1{
+	color: #1d7ac0;
+	text-align: center;
+	font-weight: 400;
+	padding: 35px 0px;
+	font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.three_boxes_third{
+	
+	background-color: white;
+    padding: 20px 0px;
+    border-radius: 20px;
+	text-align: center;
+}
+.three_boxes_third .products_box img{
+	
+	width: 100%;
+	    background-color: white;
+    padding: 20px 0px;
+    border-radius: 20px;
+}
+.three_boxes_third .products_box h2{
+	
+	width: 85%;
+    margin: 0 auto;
+    font-size: 29px;
+    font-weight: 400;
+    text-align: center;
+}
+.three_boxes_third .products_box p{
+	width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #444444;
+	
+}
+.three_boxes_third .products_box button{
+	color: #1d7ac0;
+    background-color: transparent;
+    border: 1px solid #1d7ac0;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 2px 25px;
+    font-size: 15px;
+}

@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (max-width: 600px) and (min-width: 250px) {
+  .carousel-inner {
+    height: 250px;
+  }
+  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    margin-right: 0px;
+  }
+  /*
+	.d-none {
+    display: block !important;
+}
+*/
+  .three_boxes .top-three {
+    margin-top: 35px;
+  }
+  .section_two {
+    padding: 0px;
+  }
+  .three_boxes_third {
+    margin-top: 35px;
+  }
+  .section_three {
+    padding: 0px;
+    padding-bottom: 30px;
+  }
+  .section_three .last_two_pro_box_right {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .section_three .last_two_pro_box_left {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer .footer_prod {
+    padding-bottom: 0px;
+  }
+  .footer p {
+    width: 100%;
+  }
+  .footer .footer_cont {
+    margin-left: 0px;
+  }
+  .footer p a {
+    font-size: 27px;
+  }
+}

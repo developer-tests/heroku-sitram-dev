@@ -1,0 +1,1 @@
+[07-May-2024 21:43:40 America/Boise] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/sitramin/public_html/wp-content/plugins/mailpoet/lib/API/JSON/API.php on line 4

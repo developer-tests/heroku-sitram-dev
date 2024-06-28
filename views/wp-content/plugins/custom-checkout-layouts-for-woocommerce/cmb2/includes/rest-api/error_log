@@ -1,0 +1,52 @@
+[30-Jan-2024 09:17:50 America/Boise] PHP Fatal error:  Uncaught Error: Class "CMB2_REST_Controller" not found in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php on line 17
+[30-Jan-2024 09:18:01 America/Boise] PHP Fatal error:  Uncaught Error: Class "CMB2_REST_Controller" not found in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php on line 17
+[30-Jan-2024 09:42:54 America/Boise] PHP Fatal error:  Uncaught Error: Class "CMB2_REST_Controller" not found in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php on line 17
+[30-Jan-2024 09:42:58 America/Boise] PHP Fatal error:  Uncaught Error: Class "CMB2_REST_Controller" not found in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php on line 17
+[30-Jan-2024 18:02:49 America/Boise] PHP Fatal error:  Uncaught Error: Class "CMB2_REST_Controller" not found in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php on line 17
+[30-Jan-2024 18:52:33 America/Boise] PHP Fatal error:  Uncaught Error: Class "CMB2_REST_Controller" not found in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php on line 17
+[30-Jan-2024 18:52:36 America/Boise] PHP Fatal error:  Uncaught Error: Class "CMB2_REST_Controller" not found in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php on line 17
+[21-Feb-2024 01:10:54 America/Boise] PHP Fatal error:  Uncaught Error: Class "CMB2_REST_Controller" not found in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php on line 17
+[27-Mar-2024 10:30:43 America/Boise] PHP Fatal error:  Uncaught Error: Class "CMB2_REST_Controller" not found in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php on line 17
+[27-Mar-2024 10:30:46 America/Boise] PHP Fatal error:  Uncaught Error: Class "CMB2_REST_Controller" not found in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php on line 17
+[01-Apr-2024 19:13:03 America/Boise] PHP Fatal error:  Uncaught Error: Class "CMB2_REST_Controller" not found in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php on line 17
+[25-Apr-2024 07:13:39 America/Boise] PHP Fatal error:  Uncaught Error: Class "CMB2_REST_Controller" not found in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php on line 17
+[09-May-2024 00:16:54 America/Boise] PHP Fatal error:  Uncaught Error: Class "CMB2_REST_Controller" not found in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/custom-checkout-layouts-for-woocommerce/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php on line 17

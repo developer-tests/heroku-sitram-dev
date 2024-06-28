@@ -1,0 +1,4 @@
+[22-Apr-2024 08:13:50 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home3/sitramin/public_html/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/themes/twentytwenty/404.php on line 10

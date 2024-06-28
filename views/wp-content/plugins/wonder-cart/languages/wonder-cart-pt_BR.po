@@ -1,0 +1,2755 @@
+# Copyright (C) 2024 
+# This file is distributed under the same license as the WonderCart plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WonderCart 1.7.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wonder-cart\n"
+"POT-Creation-Date: 2024-04-04T10:18:44+00:00\n"
+"PO-Revision-Date: 2024-04-02 15:14+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Domain: wonder-cart\n"
+
+#. Plugin Name of the plugin
+#: init.php
+msgid "WonderCart"
+msgstr ""
+
+#. Description of the plugin
+#: init.php
+msgid ""
+"Boost your revenue by launching and scheduling promotional campaigns like "
+"Buy One, Get One Free, Frequently Bought Together, Free Shipping, Bulk "
+"Discounts, and more."
+msgstr ""
+
+#: includes/abstracts/abstract-yith-sales-campaign.php:319
+msgid "Invalid campaign."
+msgstr ""
+
+#: includes/class-yith-sales-admin.php:48
+msgctxt "Action links"
+msgid "Settings"
+msgstr ""
+
+#: includes/class-yith-sales-post-type.php:47
+msgctxt "campaign list"
+msgid "Campaigns"
+msgstr ""
+
+#: includes/class-yith-sales-post-type.php:49
+#: includes/class-yith-sales-post-type.php:55
+#: includes/class-yith-sales-post-type.php:62
+msgid "Campaign"
+msgstr ""
+
+#: includes/class-yith-sales-post-type.php:53
+#: includes/class-yith-sales-post-type.php:54
+msgid "+ Add campaign"
+msgstr ""
+
+#: includes/class-yith-sales-post-type.php:56
+msgid "Update campaign"
+msgstr ""
+
+#: includes/class-yith-sales-post-type.php:57
+msgctxt "search campaign button"
+msgid "Search"
+msgstr ""
+
+#: includes/class-yith-sales-post-type.php:58
+msgid "Not found"
+msgstr ""
+
+#: includes/class-yith-sales.php:137
+msgid "Product page"
+msgstr ""
+
+#: includes/class-yith-sales.php:141
+msgid "Discount & Promotions"
+msgstr ""
+
+#: includes/class-yith-sales.php:145
+msgid "Cart & Checkout"
+msgstr ""
+
+#: includes/class-yith-sales.php:149
+msgid "Other"
+msgstr ""
+
+#: includes/class-yith-sales.php:169
+msgid "Frequently Bought Together"
+msgstr ""
+
+#: includes/class-yith-sales.php:170
+msgid "Create a FBT campaign"
+msgstr ""
+
+#: includes/class-yith-sales.php:171
+msgid "You haven't created any Frequently Bought Together campaigns yet."
+msgstr ""
+
+#: includes/class-yith-sales.php:172 includes/class-yith-sales.php:182
+#: includes/class-yith-sales.php:192 includes/class-yith-sales.php:202
+msgid "Create your first one now!"
+msgstr ""
+
+#: includes/class-yith-sales.php:173
+msgid ""
+"Boost your sales by presenting customers with frequently bought together "
+"products as suggestions while they browse."
+msgstr ""
+
+#: includes/class-yith-sales.php:179
+msgid "Upsell Modal"
+msgstr ""
+
+#: includes/class-yith-sales.php:180
+msgid "Create an Upsell Modal campaign"
+msgstr ""
+
+#: includes/class-yith-sales.php:181
+msgid "You don't have any Upsell Modal Campaign yet."
+msgstr ""
+
+#: includes/class-yith-sales.php:183
+msgid ""
+"Increase your average order value by displaying a pop-up window with "
+"relevant upsell options after customers add items to their cart."
+msgstr ""
+
+#: includes/class-yith-sales.php:189
+#: includes/modules/three-for-two/options.php:68
+msgid "3x2"
+msgstr ""
+
+#: includes/class-yith-sales.php:190
+msgid "Create a 3x2 campaign"
+msgstr ""
+
+#: includes/class-yith-sales.php:191
+msgid "You don't have any 3x2 Campaign yet."
+msgstr ""
+
+#: includes/class-yith-sales.php:193
+msgid ""
+"Encourage customers to buy more by offering a promotion where they can "
+"purchase three items but pay for only two."
+msgstr ""
+
+#: includes/class-yith-sales.php:199
+msgid "Buy X Get Y"
+msgstr ""
+
+#: includes/class-yith-sales.php:200
+msgid "Create a Buy X Get Y campaign"
+msgstr ""
+
+#: includes/class-yith-sales.php:201
+msgid "You don't have any Buy X Get Y Campaign yet."
+msgstr ""
+
+#: includes/class-yith-sales.php:203
+msgid ""
+"Entice customers by offering a free or discounted product when they purchase "
+"a specific quantity or type of another."
+msgstr ""
+
+#: includes/class-yith-sales.php:209
+msgid "BOGO (Buy One, Get One)"
+msgstr ""
+
+#: includes/class-yith-sales.php:210
+msgid "Create a BOGO campaign"
+msgstr ""
+
+#: includes/class-yith-sales.php:211
+msgid "You don't have any BOGO Campaign yet."
+msgstr ""
+
+#: includes/class-yith-sales.php:212 includes/class-yith-sales.php:222
+#: includes/class-yith-sales.php:232 includes/class-yith-sales.php:242
+#: includes/class-yith-sales.php:252 includes/class-yith-sales.php:262
+#: includes/class-yith-sales.php:272 includes/class-yith-sales.php:282
+#: includes/class-yith-sales.php:292
+msgid "Create now your first one!"
+msgstr ""
+
+#: includes/class-yith-sales.php:213
+msgid ""
+"Attract customers with a compelling deal where they can buy one product and "
+"get another product for free."
+msgstr ""
+
+#: includes/class-yith-sales.php:219
+msgid "Quantity Discount"
+msgstr ""
+
+#: includes/class-yith-sales.php:220
+msgid "Create a Quantity Discount campaign"
+msgstr ""
+
+#: includes/class-yith-sales.php:221
+msgid "You don't have any Quantity Discount Campaign yet."
+msgstr ""
+
+#: includes/class-yith-sales.php:223
+msgid ""
+"Motivate customers to buy in bulk by offering a discount for buying a "
+"certain quantity of products."
+msgstr ""
+
+#: includes/class-yith-sales.php:229
+msgid "Category Discount"
+msgstr ""
+
+#: includes/class-yith-sales.php:230
+msgid "Create a Category Discount campaign"
+msgstr ""
+
+#: includes/class-yith-sales.php:231
+msgid "You don't have any Category Discount Campaign yet."
+msgstr ""
+
+#: includes/class-yith-sales.php:233
+msgid ""
+"Give your customers a discount on specific categories of products and boost "
+"sales for those categories."
+msgstr ""
+
+#: includes/class-yith-sales.php:239
+msgid "Discount on all Products"
+msgstr ""
+
+#: includes/class-yith-sales.php:240
+msgid "Create a Discount on all Products campaign"
+msgstr ""
+
+#: includes/class-yith-sales.php:241
+msgid "You don't have any Discount on all Products Campaign yet."
+msgstr ""
+
+#: includes/class-yith-sales.php:243
+msgid ""
+"Attract and retain customers by offering a storewide discount on all "
+"products for a limited time."
+msgstr ""
+
+#: includes/class-yith-sales.php:249
+msgid "Cart Discount"
+msgstr ""
+
+#: includes/class-yith-sales.php:250
+msgid "Create a Cart Discount campaign"
+msgstr ""
+
+#: includes/class-yith-sales.php:251
+msgid "You don't have any Cart Discount Campaign yet."
+msgstr ""
+
+#: includes/class-yith-sales.php:253
+msgid ""
+"Encourage customers to spend more by providing a discount based on their "
+"cart's total value, amount spent, or number of orders."
+msgstr ""
+
+#: includes/class-yith-sales.php:259
+msgid "Last Deal"
+msgstr ""
+
+#: includes/class-yith-sales.php:260
+msgid "Create a Last Deal campaign"
+msgstr ""
+
+#: includes/class-yith-sales.php:261
+msgid "You don't have any Last Deal Campaign yet."
+msgstr ""
+
+#: includes/class-yith-sales.php:263
+msgid ""
+"Create urgency and drive sales with a special time-limited deal for "
+"customers on the cart and checkout pages."
+msgstr ""
+
+#: includes/class-yith-sales.php:269
+msgid "Gift Product in Cart"
+msgstr ""
+
+#: includes/class-yith-sales.php:270
+msgid "Create a Gift Product in Cart campaign"
+msgstr ""
+
+#: includes/class-yith-sales.php:271
+msgid "You don't have any Gift Product in Cart Campaign yet."
+msgstr ""
+
+#: includes/class-yith-sales.php:273
+msgid ""
+"Reward your customers with a free gift in their cart based on their total "
+"cart amount or specific products or categories purchased."
+msgstr ""
+
+#: includes/class-yith-sales.php:279
+msgid "Upsell in Thank You Page"
+msgstr ""
+
+#: includes/class-yith-sales.php:280
+msgid "Create an Upsell in Thank You Page campaign"
+msgstr ""
+
+#: includes/class-yith-sales.php:281
+msgid "You don't have any Thank you Page Campaign yet."
+msgstr ""
+
+#: includes/class-yith-sales.php:283
+msgid ""
+"Maximize sales by presenting customers with relevant upsell options on the "
+"Thank You page after they have completed their purchase."
+msgstr ""
+
+#: includes/class-yith-sales.php:289
+#: includes/modules/free-shipping/class-yith-sales-wc-shipping-free-shipping.php:26
+#: plugin-options/general-settings-options.php:263
+msgid "Free shipping"
+msgstr ""
+
+#: includes/class-yith-sales.php:290
+msgid "Create a Free shipping campaign"
+msgstr ""
+
+#: includes/class-yith-sales.php:291
+msgid "You don't have any Free Shipping Campaign yet."
+msgstr ""
+
+#: includes/class-yith-sales.php:293
+msgid ""
+"Attract and retain customers by offering free shipping storewide, based on "
+"the total cart amount, or customer's shipping location."
+msgstr ""
+
+#. translators: %1$s is the quantity.
+#. translators: %1$s is the stock quantity
+#: includes/modules/bogo/class-yith-sales-bogo.php:343
+#: includes/modules/bogo/class-yith-sales-bogo.php:388
+msgid "You cannot add that amount to the cart &mdash; we have %1$s in stock"
+msgstr ""
+
+#: includes/modules/bogo/options.php:17
+#: includes/modules/buy-x-get-y/options.php:17
+#: includes/modules/cart-discount/options.php:17
+#: includes/modules/category-discount/options.php:17
+#: includes/modules/free-shipping/options.php:16
+#: includes/modules/gift-on-cart/options.php:17
+#: includes/modules/shop-discount/options.php:16
+#: includes/yith-sales-functions.php:294
+msgid "Trigger"
+msgstr ""
+
+#: includes/modules/bogo/options.php:18
+#: includes/modules/buy-x-get-y/options.php:18
+#: includes/modules/cart-discount/options.php:18
+#: includes/modules/category-discount/options.php:18
+#: includes/modules/free-shipping/options.php:17
+#: includes/modules/gift-on-cart/options.php:18
+#: includes/modules/shop-discount/options.php:17
+#: includes/yith-sales-functions.php:287
+msgid "Step 1 - Trigger"
+msgstr ""
+
+#: includes/modules/bogo/options.php:22
+#: includes/modules/buy-x-get-y/options.php:22
+#: includes/modules/cart-discount/options.php:22
+#: includes/modules/category-discount/options.php:22
+#: includes/modules/free-shipping/options.php:21
+#: includes/modules/gift-on-cart/options.php:22
+#: includes/modules/shop-discount/options.php:21
+#: includes/yith-sales-functions.php:299
+msgid "Campaign name:"
+msgstr ""
+
+#: includes/modules/bogo/options.php:23
+#: includes/modules/buy-x-get-y/options.php:23
+#: includes/modules/category-discount/options.php:23
+#: includes/modules/gift-on-cart/options.php:23
+#: includes/modules/shop-discount/options.php:22
+#: includes/yith-sales-functions.php:300
+msgid "Customers will see this in their cart and during checkout."
+msgstr ""
+
+#: includes/modules/bogo/options.php:26
+#: includes/modules/shop-discount/options.php:25
+msgid "Example: “Black Friday Discount”"
+msgstr ""
+
+#: includes/modules/bogo/options.php:35
+#: includes/modules/buy-x-get-y/options.php:35
+#: includes/modules/category-discount/options.php:35
+#: includes/modules/shop-discount/options.php:34
+#: includes/yith-sales-functions.php:289
+msgid "Trigger when the user add to cart:"
+msgstr ""
+
+#: includes/modules/bogo/options.php:41 includes/yith-sales-functions.php:319
+msgid "All products"
+msgstr ""
+
+#: includes/modules/bogo/options.php:45
+#: includes/modules/gift-on-cart/options.php:67
+#: includes/modules/shop-discount/options.php:58
+#: includes/yith-sales-functions.php:323 includes/yith-sales-functions.php:891
+msgid "Specific products"
+msgstr ""
+
+#: includes/modules/bogo/options.php:49
+#: includes/modules/category-discount/options.php:41
+#: includes/modules/gift-on-cart/options.php:71
+#: includes/modules/shop-discount/options.php:62
+#: includes/yith-sales-functions.php:327
+msgid "Specific categories"
+msgstr ""
+
+#: includes/modules/bogo/options.php:59 includes/modules/bogo/options.php:69
+#: includes/modules/frequently-bought-together/options.php:42
+#: includes/modules/frequently-bought-together/options.php:48
+#: includes/modules/gift-on-cart/options.php:77
+#: includes/modules/gift-on-cart/options.php:87
+#: includes/modules/last-deal/options.php:41
+#: includes/modules/last-deal/options.php:47
+#: includes/modules/shop-discount/options.php:73
+#: includes/modules/shop-discount/options.php:83
+#: includes/modules/thank-you-page/options.php:42
+#: includes/modules/thank-you-page/options.php:48
+#: includes/modules/upsell/options.php:41
+#: includes/modules/upsell/options.php:47 includes/yith-sales-functions.php:337
+#: includes/yith-sales-functions.php:347
+msgid "Select products"
+msgstr ""
+
+#: includes/modules/bogo/options.php:63 includes/modules/bogo/options.php:73
+#: includes/modules/category-discount/options.php:51
+#: includes/modules/category-discount/options.php:58
+#: includes/modules/gift-on-cart/options.php:81
+#: includes/modules/gift-on-cart/options.php:91
+#: includes/modules/shop-discount/options.php:77
+#: includes/modules/shop-discount/options.php:87
+#: includes/yith-sales-functions.php:341 includes/yith-sales-functions.php:351
+msgid "Select categories"
+msgstr ""
+
+#: includes/modules/bogo/options.php:80
+#: includes/modules/frequently-bought-together/options.php:55
+#: includes/modules/gift-on-cart/options.php:98
+#: includes/modules/last-deal/options.php:54
+#: includes/modules/shop-discount/options.php:94
+#: includes/modules/thank-you-page/options.php:55
+#: includes/modules/upsell/options.php:54 includes/yith-sales-functions.php:358
+msgid "Search products"
+msgstr ""
+
+#: includes/modules/bogo/options.php:85
+#: includes/modules/buy-x-get-y/options.php:82
+#: includes/modules/buy-x-get-y/options.php:151
+#: includes/modules/category-discount/options.php:65
+#: includes/modules/gift-on-cart/options.php:103
+#: includes/modules/shop-discount/options.php:99
+#: includes/yith-sales-functions.php:363
+msgid "Search category"
+msgstr ""
+
+#: includes/modules/bogo/options.php:97
+#: includes/modules/buy-x-get-y/options.php:240
+#: includes/modules/cart-discount/options.php:72
+#: includes/modules/category-discount/options.php:120
+#: includes/modules/free-shipping/options.php:48
+#: includes/modules/frequently-bought-together/options.php:207
+#: includes/modules/gift-on-cart/options.php:390
+#: includes/modules/last-deal/options.php:275
+#: includes/modules/quantity-discount/options.php:125
+#: includes/modules/shop-discount/options.php:155
+#: includes/modules/thank-you-page/options.php:211
+#: includes/modules/three-for-two/options.php:22
+#: includes/modules/upsell/options.php:196
+msgid "Customization"
+msgstr ""
+
+#: includes/modules/bogo/options.php:98
+#: includes/modules/free-shipping/options.php:49
+#: includes/modules/three-for-two/options.php:23
+msgid "Step 2 - Customization"
+msgstr ""
+
+#: includes/modules/bogo/options.php:102
+#: includes/modules/three-for-two/options.php:27
+msgid "Notice"
+msgstr ""
+
+#: includes/modules/bogo/options.php:108
+#: includes/modules/three-for-two/options.php:33
+msgid "Title:"
+msgstr ""
+
+#: includes/modules/bogo/options.php:110
+msgid "Enjoy our special BOGO on this product. Buy 1 and Get 1 FOR FREE!"
+msgstr ""
+
+#: includes/modules/bogo/options.php:116
+#: includes/modules/category-discount/options.php:142
+#: includes/modules/shop-discount/options.php:177
+#: includes/modules/thank-you-page/options.php:230
+#: includes/modules/three-for-two/options.php:41
+#: plugin-options/general-settings-options.php:286
+msgid "Extra"
+msgstr ""
+
+#: includes/modules/bogo/options.php:122
+#: includes/modules/category-discount/options.php:148
+#: includes/modules/shop-discount/options.php:183
+#: includes/modules/thank-you-page/options.php:236
+#: includes/modules/three-for-two/options.php:56
+msgid "Show badge"
+msgstr ""
+
+#: includes/modules/bogo/options.php:131
+#: includes/modules/category-discount/options.php:157
+#: includes/modules/quantity-discount/options.php:182
+#: includes/modules/shop-discount/options.php:192
+#: includes/modules/thank-you-page/options.php:245
+#: includes/modules/three-for-two/options.php:65
+msgid "Badge text"
+msgstr ""
+
+#: includes/modules/bogo/options.php:134
+msgid "BUY 1 GET 1"
+msgstr ""
+
+#: includes/modules/bogo/options.php:147
+#: includes/modules/category-discount/options.php:175
+#: includes/modules/shop-discount/options.php:210
+#: includes/modules/thank-you-page/options.php:261
+#: includes/modules/three-for-two/options.php:81
+msgid "Badge colors"
+msgstr ""
+
+#: includes/modules/bogo/options.php:152
+#: includes/modules/buy-x-get-y/options.php:705
+#: includes/modules/cart-discount/options.php:98
+#: includes/modules/category-discount/options.php:180
+#: includes/modules/frequently-bought-together/options.php:265
+#: includes/modules/gift-on-cart/options.php:463
+#: includes/modules/last-deal/options.php:313
+#: includes/modules/quantity-discount/options.php:156
+#: includes/modules/shop-discount/options.php:215
+#: includes/modules/thank-you-page/options.php:266
+#: includes/modules/three-for-two/options.php:86
+#: includes/modules/upsell/options.php:234
+#: includes/yith-sales-functions.php:569 includes/yith-sales-functions.php:629
+#: includes/yith-sales-functions.php:704
+#: plugin-options/general-settings-options.php:18
+#: plugin-options/general-settings-options.php:90
+#: plugin-options/general-settings-options.php:145
+#: plugin-options/general-settings-options.php:186
+#: plugin-options/general-settings-options.php:250
+msgid "Background"
+msgstr ""
+
+#: includes/modules/bogo/options.php:161
+#: includes/modules/cart-discount/options.php:107
+#: includes/modules/category-discount/options.php:189
+#: includes/modules/shop-discount/options.php:224
+#: includes/modules/thank-you-page/options.php:276
+#: includes/modules/three-for-two/options.php:95
+#: includes/yith-sales-functions.php:713
+#: plugin-options/general-settings-options.php:36
+#: plugin-options/general-settings-options.php:99
+#: plugin-options/general-settings-options.php:154
+msgid "Text"
+msgstr ""
+
+#: includes/modules/bogo/options.php:183 includes/modules/bogo/options.php:184
+msgid "Enjoy our special BOGO. Buy 1 and Get 1 FOR FREE!"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:26
+msgid "Example: “Buy Shoes, Get Socks”"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:42
+msgid "Specific product"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:46
+msgid "Specific category"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:56
+#: includes/modules/buy-x-get-y/options.php:66
+#: includes/modules/buy-x-get-y/options.php:125
+#: includes/modules/buy-x-get-y/options.php:135
+msgid "Select product"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:60
+#: includes/modules/buy-x-get-y/options.php:70
+#: includes/modules/buy-x-get-y/options.php:129
+#: includes/modules/buy-x-get-y/options.php:139
+msgid "Select category"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:77
+#: includes/modules/buy-x-get-y/options.php:146
+msgid "Search product"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:93
+#: includes/modules/cart-discount/options.php:49
+#: includes/modules/category-discount/options.php:76
+#: includes/modules/frequently-bought-together/options.php:24
+#: includes/modules/gift-on-cart/options.php:50
+#: includes/modules/last-deal/options.php:23
+#: includes/modules/quantity-discount/options.php:24
+#: includes/modules/shop-discount/options.php:115
+#: includes/modules/thank-you-page/options.php:24
+#: includes/modules/upsell/options.php:23
+msgid "Configuration"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:94
+#: includes/modules/cart-discount/options.php:50
+#: includes/modules/category-discount/options.php:77
+#: includes/modules/frequently-bought-together/options.php:25
+#: includes/modules/gift-on-cart/options.php:51
+#: includes/modules/last-deal/options.php:24
+#: includes/modules/quantity-discount/options.php:25
+#: includes/modules/shop-discount/options.php:116
+#: includes/modules/thank-you-page/options.php:25
+#: includes/modules/upsell/options.php:24
+msgid "Step 2 - Configuration"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:98
+#: includes/modules/cart-discount/options.php:54
+#: includes/modules/category-discount/options.php:81
+#: includes/modules/frequently-bought-together/options.php:29
+#: includes/modules/gift-on-cart/options.php:55
+#: includes/modules/last-deal/options.php:28
+#: includes/modules/quantity-discount/options.php:29
+#: includes/modules/shop-discount/options.php:120
+#: includes/modules/thank-you-page/options.php:29
+#: includes/modules/upsell/options.php:28
+msgid "Behaviour"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:104
+msgid "Create a promotion for the purchase of:"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:111
+msgid "Same items used for trigger"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:115
+msgid "Different product"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:119
+msgid "Different product category"
+msgstr ""
+
+#. translators: %1$s is the trigger product %2$s is the html tag
+#: includes/modules/buy-x-get-y/options.php:167
+msgid ""
+"Example: The user buy %1$s2 pair of Shoes%2$s and get the %1$s3rd pair of "
+"Shoes%2$s with a 20%3$s off"
+msgstr ""
+
+#. translators: %1$s is the trigger product %2$s html tag
+#: includes/modules/buy-x-get-y/options.php:188
+#: includes/modules/buy-x-get-y/options.php:209
+msgid ""
+"Example: The user buy %1$s2 pair of Shoes%2$s and get a %1$s1 pair of "
+"Socks%2$s with a 20%3$s off."
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:228
+msgid "Promo details"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:229
+msgid "Set promo rule"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:230
+msgid "Edit promo rule"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:241
+#: includes/modules/cart-discount/options.php:73
+#: includes/modules/category-discount/options.php:121
+#: includes/modules/frequently-bought-together/options.php:208
+#: includes/modules/gift-on-cart/options.php:391
+#: includes/modules/last-deal/options.php:276
+#: includes/modules/quantity-discount/options.php:126
+#: includes/modules/shop-discount/options.php:156
+#: includes/modules/thank-you-page/options.php:212
+#: includes/modules/upsell/options.php:197
+msgid "Step 3 - Customization"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:245
+#: includes/modules/frequently-bought-together/options.php:186
+#: includes/modules/gift-on-cart/options.php:361
+#: includes/modules/last-deal/options.php:246
+#: includes/modules/thank-you-page/options.php:168
+#: includes/modules/upsell/options.php:167
+#: assets/js/src/blocks/elements/add-to-cart-button/index.js:29
+#: assets/js/src/blocks/elements/product-single-item-empty/index.js:40
+#: assets/js/src/blocks/quantity-discount/index.js:239
+#: assets/js/src/blocks/quantity-discount/index.js:258
+msgid "Add to cart"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:251
+msgid "Automatically add free items in cart"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:332
+msgid "This option is valid, only for simple products offered as free"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:409
+#: includes/modules/frequently-bought-together/options.php:192
+#: includes/modules/gift-on-cart/options.php:367
+#: includes/modules/last-deal/options.php:261
+#: includes/modules/thank-you-page/options.php:192
+#: includes/modules/upsell/options.php:182
+#: includes/yith-sales-functions.php:496
+msgid "Button label"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:412
+#: includes/modules/frequently-bought-together/options.php:195
+#: includes/modules/frequently-bought-together/options.php:196
+#: includes/modules/thank-you-page/options.php:195
+#: includes/modules/upsell/options.php:185
+msgid "Buy now"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:539
+msgid "Notices"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:545
+msgid "Modal window:"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:547
+msgid "Promo unblocked! Get this item with a special discount."
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:668
+msgid "Show notice in product pages"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:674
+msgid "Product page:"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:676
+msgid "New Promo! Get 1 pair of socks with a 70% off!"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:687
+#: includes/modules/frequently-bought-together/options.php:226
+#: includes/modules/gift-on-cart/options.php:410
+#: includes/modules/last-deal/options.php:295
+#: includes/modules/upsell/options.php:216
+#: includes/yith-sales-functions.php:544
+msgid "Style"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:694
+#: includes/modules/free-shipping/options.php:86
+#: includes/modules/frequently-bought-together/options.php:254
+#: includes/modules/gift-on-cart/options.php:452
+#: includes/modules/last-deal/options.php:302
+#: includes/modules/quantity-discount/options.php:145
+#: includes/modules/upsell/options.php:223
+#: plugin-options/general-settings-options.php:13
+#: plugin-options/general-settings-options.php:85
+#: plugin-options/general-settings-options.php:140
+#: plugin-options/general-settings-options.php:172
+msgid "Colors"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:714
+#: includes/modules/gift-on-cart/options.php:472
+#: includes/modules/last-deal/options.php:322
+#: includes/modules/upsell/options.php:243
+msgid "Close icon"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:730
+#: includes/modules/category-discount/options.php:210
+#: includes/modules/shop-discount/options.php:245
+msgid "Step 4 - Promotion"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:731
+#: includes/modules/buy-x-get-y/options.php:732
+msgid "Unblock our promo! Buy X and get Y with a special discount!"
+msgstr ""
+
+#: includes/modules/buy-x-get-y/options.php:733
+msgid "Get product X"
+msgstr ""
+
+#: includes/modules/cart-discount/options.php:25
+msgid "Example: “10% Cart Discount”"
+msgstr ""
+
+#: includes/modules/cart-discount/options.php:34
+#: includes/modules/free-shipping/options.php:33
+#: includes/modules/gift-on-cart/options.php:35
+msgid "Trigger:"
+msgstr ""
+
+#: includes/modules/cart-discount/options.php:42
+#: includes/modules/cart-discount/options.php:43
+#: includes/modules/free-shipping/options.php:41
+#: includes/modules/free-shipping/options.php:42
+#: includes/modules/gift-on-cart/options.php:43
+#: includes/modules/gift-on-cart/options.php:44
+msgid "Set conditions"
+msgstr ""
+
+#: includes/modules/cart-discount/options.php:44
+#: includes/modules/free-shipping/options.php:43
+#: includes/modules/gift-on-cart/options.php:45
+msgid "Add condition"
+msgstr ""
+
+#: includes/modules/cart-discount/options.php:60
+#: includes/modules/frequently-bought-together/options.php:130
+#: includes/modules/last-deal/options.php:199
+#: includes/modules/shop-discount/options.php:126
+#: includes/modules/thank-you-page/options.php:121
+#: includes/modules/upsell/options.php:120
+msgid "Discount to apply:"
+msgstr ""
+
+#: includes/modules/cart-discount/options.php:77
+msgid "Discount label"
+msgstr ""
+
+#: includes/modules/cart-discount/options.php:85
+msgid "Loyalty discount"
+msgstr ""
+
+#: includes/modules/cart-discount/options.php:93
+msgid "Label colors"
+msgstr ""
+
+#: includes/modules/category-discount/options.php:25
+msgid "Example: “20% on Accessories”"
+msgstr ""
+
+#: includes/modules/category-discount/options.php:87
+msgid "Discount for categories"
+msgstr ""
+
+#: includes/modules/category-discount/options.php:88
+msgid "Set discounts"
+msgstr ""
+
+#: includes/modules/category-discount/options.php:97
+#: includes/modules/frequently-bought-together/options.php:106
+#: includes/modules/gift-on-cart/options.php:267
+#: includes/modules/last-deal/options.php:175
+#: includes/modules/quantity-discount/options.php:47
+#: includes/modules/shop-discount/options.php:137
+#: includes/modules/thank-you-page/options.php:97
+#: includes/modules/upsell/options.php:96
+msgid "Pricing"
+msgstr ""
+
+#: includes/modules/category-discount/options.php:103
+#: includes/modules/frequently-bought-together/options.php:144
+#: includes/modules/last-deal/options.php:213
+#: includes/modules/quantity-discount/options.php:62
+#: includes/modules/shop-discount/options.php:143
+#: includes/modules/thank-you-page/options.php:135
+#: includes/modules/upsell/options.php:134
+msgid "Show saving"
+msgstr ""
+
+#: includes/modules/category-discount/options.php:125
+msgid "Notice in category page"
+msgstr ""
+
+#: includes/modules/category-discount/options.php:131
+#: includes/modules/frequently-bought-together/options.php:218
+#: includes/modules/gift-on-cart/options.php:401
+#: includes/modules/last-deal/options.php:286
+#: includes/modules/quantity-discount/options.php:136
+#: includes/modules/shop-discount/options.php:166
+#: includes/modules/thank-you-page/options.php:222
+#: includes/modules/upsell/options.php:207
+msgid "Title"
+msgstr ""
+
+#. translators: %discount% is the discount value that will see the customers
+#: includes/modules/category-discount/options.php:133
+#: includes/modules/category-discount/options.php:159
+#: includes/modules/shop-discount/options.php:171
+#: includes/modules/shop-discount/options.php:197
+msgid ""
+"It is possible to use %discount% to show the discount applied to the product."
+msgstr ""
+
+#. translators: %discount% is the discount value that will see the customers
+#: includes/modules/category-discount/options.php:136
+msgid "Enjoy a special %discount% on all items of this category"
+msgstr ""
+
+#: includes/modules/category-discount/options.php:211
+#: includes/modules/category-discount/options.php:212
+msgid "Enjoy a special 20% on all Accessories"
+msgstr ""
+
+#: includes/modules/free-shipping/options.php:24
+msgid "Example: “Free Shipping promotion”"
+msgstr ""
+
+#: includes/modules/free-shipping/options.php:53
+msgid "Cart notice"
+msgstr ""
+
+#: includes/modules/free-shipping/options.php:59
+msgid "Show amount left for free shipping"
+msgstr ""
+
+#: includes/modules/free-shipping/options.php:68
+msgid "Notice text"
+msgstr ""
+
+#: includes/modules/free-shipping/options.php:70
+msgid "Only add %value% more to get FREE SHIPPING!"
+msgstr ""
+
+#: includes/modules/free-shipping/options.php:71
+msgid ""
+"Use the placeholder %value% to automatically show the amount left to get "
+"free shipping."
+msgstr ""
+
+#: includes/modules/free-shipping/options.php:97
+msgid "Notice Background"
+msgstr ""
+
+#: includes/modules/free-shipping/options.php:117
+#: includes/yith-sales-functions.php:390
+msgid "Step 3 - Promotion"
+msgstr ""
+
+#: includes/modules/free-shipping/options.php:118
+#: includes/modules/free-shipping/options.php:119
+msgid "FREE Shipping on orders $30+"
+msgstr ""
+
+#: includes/modules/frequently-bought-together/options.php:18
+msgid "Example: “Complete the outfit”"
+msgstr ""
+
+#: includes/modules/frequently-bought-together/options.php:19
+#: includes/modules/quantity-discount/options.php:19
+msgid "Show on:"
+msgstr ""
+
+#: includes/modules/frequently-bought-together/options.php:35
+#: includes/modules/thank-you-page/options.php:35
+msgid "Products to suggest:"
+msgstr ""
+
+#: includes/modules/frequently-bought-together/options.php:74
+#: includes/modules/last-deal/options.php:73
+#: includes/modules/thank-you-page/options.php:74
+#: includes/modules/upsell/options.php:73
+msgid "Number of products:"
+msgstr ""
+
+#: includes/modules/frequently-bought-together/options.php:95
+#: assets/js/src/admin/components/fields/quantity-discount-rules/index.js:133
+msgid "Checked by default"
+msgstr ""
+
+#: includes/modules/frequently-bought-together/options.php:112
+#: includes/modules/gift-on-cart/options.php:273
+#: includes/modules/last-deal/options.php:181
+#: includes/modules/thank-you-page/options.php:103
+#: includes/modules/upsell/options.php:102
+msgid "Show product price"
+msgstr ""
+
+#: includes/modules/frequently-bought-together/options.php:121
+#: includes/modules/last-deal/options.php:190
+#: includes/modules/thank-you-page/options.php:112
+#: includes/modules/upsell/options.php:111
+msgid "Apply discount"
+msgstr ""
+
+#: includes/modules/frequently-bought-together/options.php:158
+msgid "Show total"
+msgstr ""
+
+#: includes/modules/frequently-bought-together/options.php:169
+#: includes/modules/last-deal/options.php:229
+#: includes/modules/quantity-discount/options.php:87
+#: includes/modules/thank-you-page/options.php:151
+#: includes/modules/upsell/options.php:150
+msgid "Product info"
+msgstr ""
+
+#: includes/modules/frequently-bought-together/options.php:175
+#: includes/modules/gift-on-cart/options.php:299
+#: includes/modules/last-deal/options.php:235
+#: includes/modules/thank-you-page/options.php:157
+#: includes/modules/upsell/options.php:156
+msgid "Show product name"
+msgstr ""
+
+#: includes/modules/frequently-bought-together/options.php:212
+#: includes/modules/gift-on-cart/options.php:395
+#: includes/modules/last-deal/options.php:280
+#: includes/modules/quantity-discount/options.php:130
+#: includes/modules/upsell/options.php:201
+msgid "Heading"
+msgstr ""
+
+#: includes/modules/frequently-bought-together/options.php:220
+msgid "Frequently bought together"
+msgstr ""
+
+#: includes/modules/frequently-bought-together/options.php:232
+#: includes/yith-sales-functions.php:791
+msgid "Border radius (px)"
+msgstr ""
+
+#: includes/modules/frequently-bought-together/options.php:274
+#: includes/modules/quantity-discount/options.php:165
+#: plugin-options/general-settings-options.php:27
+msgid "Borders"
+msgstr ""
+
+#: includes/modules/frequently-bought-together/options.php:291
+#: includes/modules/upsell/options.php:260
+msgid "Check icons"
+msgstr ""
+
+#: includes/modules/frequently-bought-together/options.php:300
+#: includes/modules/upsell/options.php:307
+#: plugin-options/general-settings-options.php:314
+msgid "Saving"
+msgstr ""
+
+#: includes/modules/gift-on-cart/options.php:26
+msgid "Example: “Gift Watch”"
+msgstr ""
+
+#: includes/modules/gift-on-cart/options.php:61
+msgid "Products to offer as gift:"
+msgstr ""
+
+#: includes/modules/gift-on-cart/options.php:117
+msgid "Number of products to show:"
+msgstr ""
+
+#: includes/modules/gift-on-cart/options.php:152
+msgid "Automatically add in cart"
+msgstr ""
+
+#: includes/modules/gift-on-cart/options.php:186
+msgid "This option is valid only for simple products offered as gift"
+msgstr ""
+
+#: includes/modules/gift-on-cart/options.php:216
+msgid "Number of gift(s) the user can pick:"
+msgstr ""
+
+#: includes/modules/gift-on-cart/options.php:293
+msgid "Product Info"
+msgstr ""
+
+#: includes/modules/gift-on-cart/options.php:370
+#: includes/modules/last-deal/options.php:263
+msgid "Yes, I want it!"
+msgstr ""
+
+#: includes/modules/gift-on-cart/options.php:404
+msgid "Pick your FREE GIFT!"
+msgstr ""
+
+#: includes/modules/last-deal/options.php:18
+msgid "Example: “Last deal! 50% discount”"
+msgstr ""
+
+#: includes/modules/last-deal/options.php:34
+msgid "Products to offer a deal:"
+msgstr ""
+
+#: includes/modules/last-deal/options.php:94
+msgid "Show on"
+msgstr ""
+
+#: includes/modules/last-deal/options.php:100
+msgid "Cart"
+msgstr ""
+
+#: includes/modules/last-deal/options.php:104
+msgid "Checkout"
+msgstr ""
+
+#: includes/modules/last-deal/options.php:108
+msgid "Both Cart and Checkout"
+msgstr ""
+
+#: includes/modules/last-deal/options.php:118
+msgid "Show countdown"
+msgstr ""
+
+#: includes/modules/last-deal/options.php:150
+#: plugin-options/general-settings-options.php:414
+#: plugin-options/general-settings-options.php:445
+#: plugin-options/general-settings-options.php:474
+#: plugin-options/promotion-settings-options.php:84
+#: plugin-options/promotion-settings-options.php:115
+#: plugin-options/promotion-settings-options.php:144
+msgid "seconds"
+msgstr ""
+
+#: includes/modules/last-deal/options.php:154
+msgid "minutes"
+msgstr ""
+
+#: includes/modules/last-deal/options.php:252
+#: includes/modules/thank-you-page/options.php:174
+#: includes/modules/upsell/options.php:173
+msgid "Redirect user to Checkout"
+msgstr ""
+
+#: includes/modules/last-deal/options.php:289
+msgid "Last minute deal! Buy this item for just $19.99"
+msgstr ""
+
+#: includes/modules/quantity-discount/options.php:18
+msgid "Example: “Business Card - 100/250 units”"
+msgstr ""
+
+#: includes/modules/quantity-discount/options.php:36
+msgid "Discount for quantity"
+msgstr ""
+
+#: includes/modules/quantity-discount/options.php:37
+msgid "Set rules"
+msgstr ""
+
+#: includes/modules/quantity-discount/options.php:38
+msgid "Edit rules"
+msgstr ""
+
+#: includes/modules/quantity-discount/options.php:39
+msgid "Add rule"
+msgstr ""
+
+#: includes/modules/quantity-discount/options.php:53
+msgid "Show price for unit"
+msgstr ""
+
+#: includes/modules/quantity-discount/options.php:71
+msgid "Show total amount"
+msgstr ""
+
+#: includes/modules/quantity-discount/options.php:93
+msgid "Show product image"
+msgstr ""
+
+#: includes/modules/quantity-discount/options.php:102
+msgid "Show quantity badge"
+msgstr ""
+
+#: includes/modules/quantity-discount/options.php:138
+msgid "Buy more, pay less"
+msgstr ""
+
+#: includes/modules/quantity-discount/options.php:191
+msgid "Badge background"
+msgstr ""
+
+#: includes/modules/quantity-discount/options.php:208
+msgid "Ribbon text"
+msgstr ""
+
+#: includes/modules/quantity-discount/options.php:217
+msgid "Ribbon background"
+msgstr ""
+
+#: includes/modules/shop-discount/options.php:37
+msgid "All Products"
+msgstr ""
+
+#: includes/modules/shop-discount/options.php:45
+msgid "Exclude products or categories"
+msgstr ""
+
+#: includes/modules/shop-discount/options.php:160
+msgid "Notice in shop page"
+msgstr ""
+
+#. translators: %discount% is the discount value that will see the customers
+#: includes/modules/shop-discount/options.php:169
+msgid "Black Friday Campaign! Enjoy a special %discount% on all products!"
+msgstr ""
+
+#: includes/modules/shop-discount/options.php:246
+#: includes/modules/shop-discount/options.php:247
+msgid "Enjoy a special 20% on all products"
+msgstr ""
+
+#: includes/modules/thank-you-page/options.php:18
+msgid "Example: “TY Page - Best seller Promotion”"
+msgstr ""
+
+#: includes/modules/thank-you-page/options.php:19
+msgid "Trigger when the user purchased:"
+msgstr ""
+
+#: includes/modules/thank-you-page/options.php:183
+msgid "Show add to cart"
+msgstr ""
+
+#: includes/modules/thank-you-page/options.php:216
+msgid "Text before products"
+msgstr ""
+
+#: includes/modules/thank-you-page/options.php:224
+msgid "You may also like..."
+msgstr ""
+
+#: includes/modules/thank-you-page/options.php:248
+msgid "-20%"
+msgstr ""
+
+#: includes/modules/three-for-two/options.php:17
+msgid "Example: “3x2 on Parfumes”"
+msgstr ""
+
+#: includes/modules/three-for-two/options.php:35
+msgid "Buy two units and get the third for free!"
+msgstr ""
+
+#: includes/modules/three-for-two/options.php:47
+msgid "Set default quantity as 3"
+msgstr ""
+
+#: includes/modules/upsell/options.php:18
+msgid "Example: “Upsell shoes”"
+msgstr ""
+
+#: includes/modules/upsell/options.php:34
+msgid "Products to upsell:"
+msgstr ""
+
+#: includes/modules/upsell/options.php:210
+msgid "Don't miss out! 50% off this item today only."
+msgstr ""
+
+#: includes/rest-api/endpoints/class-yith-rest-campaigns-controller.php:1014
+msgid "The title for the post."
+msgstr ""
+
+#: includes/rest-api/endpoints/class-yith-rest-campaigns-controller.php:1376
+msgctxt "Name of duplicated post type"
+msgid " - Copy"
+msgstr ""
+
+#: includes/rest-api/endpoints/class-yith-rest-campaigns-controller.php:1586
+#: includes/rest-api/endpoints/class-yith-rest-campaigns-controller.php:1603
+msgid "Cart subtotal args is missed"
+msgstr ""
+
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:46
+msgid "A unique identifier for the setting."
+msgstr ""
+
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:55
+msgid "A human readable label for the setting used in interfaces."
+msgstr ""
+
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:64
+msgid "Setting value."
+msgstr ""
+
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:69
+msgid "Default value for the setting."
+msgstr ""
+
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:75
+msgid "Placeholder text to be displayed in text inputs."
+msgstr ""
+
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:84
+msgid "Type of setting."
+msgstr ""
+
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:94
+msgid ""
+"Array of options (key value pairs) for inputs such as select, multiselect, "
+"and radio buttons."
+msgstr ""
+
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:100
+msgid "Array of fields for nested options"
+msgstr ""
+
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:150
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:157
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:252
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:259
+msgid "Invalid setting group."
+msgstr ""
+
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:213
+msgid "Sorry, you cannot list resources."
+msgstr ""
+
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:288
+msgid "Sorry, you cannot update resources."
+msgstr ""
+
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:379
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:383
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:417
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:447
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:465
+#: includes/rest-api/endpoints/class-yith-rest-settings-controller.php:479
+msgid "An invalid setting value was passed."
+msgstr ""
+
+#: includes/wc-blocks/src/class-yith-sales-wc-blocks-register.php:71
+msgctxt "The coupon label"
+msgid "The coupon label applied in cart"
+msgstr ""
+
+#: includes/yith-sales-functions.php:288 includes/yith-sales-functions.php:391
+#: includes/yith-sales-functions.php:392
+msgid "Enjoy the special 3x2 on all our perfumes!"
+msgstr ""
+
+#: includes/yith-sales-functions.php:304
+msgid "Please enter a name to identify this campaign."
+msgstr ""
+
+#: includes/yith-sales-functions.php:393
+msgid "Shop now"
+msgstr ""
+
+#: includes/yith-sales-functions.php:399
+msgid "Promotion"
+msgstr ""
+
+#: includes/yith-sales-functions.php:404
+msgid "Campaign Promotion"
+msgstr ""
+
+#: includes/yith-sales-functions.php:410
+msgid "Promote campaign in your shop"
+msgstr ""
+
+#: includes/yith-sales-functions.php:419
+msgid "Promotion style:"
+msgstr ""
+
+#: includes/yith-sales-functions.php:424
+msgid "Popup Window"
+msgstr ""
+
+#: includes/yith-sales-functions.php:428
+msgid "Top banner"
+msgstr ""
+
+#: includes/yith-sales-functions.php:444
+msgid "Text to show on popup:"
+msgstr ""
+
+#: includes/yith-sales-functions.php:463
+msgid "Text to show on banner:"
+msgstr ""
+
+#: includes/yith-sales-functions.php:482
+msgid "Show Call to Action button"
+msgstr ""
+
+#: includes/yith-sales-functions.php:519
+msgid "Button URL"
+msgstr ""
+
+#: includes/yith-sales-functions.php:563
+msgid "Banner colors"
+msgstr ""
+
+#: includes/yith-sales-functions.php:575 includes/yith-sales-functions.php:650
+msgid "Upload background image"
+msgstr ""
+
+#: includes/yith-sales-functions.php:618
+msgid "Popup colors"
+msgstr ""
+
+#: includes/yith-sales-functions.php:638
+#: plugin-options/general-settings-options.php:195
+msgid "Close Icon"
+msgstr ""
+
+#: includes/yith-sales-functions.php:693
+msgid "Button colors"
+msgstr ""
+
+#: includes/yith-sales-functions.php:730
+msgid "Background Hover"
+msgstr ""
+
+#: includes/yith-sales-functions.php:739
+msgid "Text Hover"
+msgstr ""
+
+#: includes/yith-sales-functions.php:782
+msgid "Show full size"
+msgstr ""
+
+#: includes/yith-sales-functions.php:816
+msgid "Popup position"
+msgstr ""
+
+#: includes/yith-sales-functions.php:822
+msgid "Center"
+msgstr ""
+
+#: includes/yith-sales-functions.php:826
+msgid "Top Left"
+msgstr ""
+
+#: includes/yith-sales-functions.php:830
+msgid "Top Right"
+msgstr ""
+
+#: includes/yith-sales-functions.php:834
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/yith-sales-functions.php:838
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/yith-sales-functions.php:854
+msgid "Popup animation"
+msgstr ""
+
+#: includes/yith-sales-functions.php:860
+msgid "Fade"
+msgstr ""
+
+#: includes/yith-sales-functions.php:864
+msgid "Zoom"
+msgstr ""
+
+#: includes/yith-sales-functions.php:892
+msgid "No products selected."
+msgstr ""
+
+#: includes/yith-sales-functions.php:896
+msgid "Best seller products"
+msgstr ""
+
+#: includes/yith-sales-functions.php:897
+msgid "No best seller products found."
+msgstr ""
+
+#: includes/yith-sales-functions.php:901
+msgid "Featured products"
+msgstr ""
+
+#: includes/yith-sales-functions.php:902
+msgid "No featured products found."
+msgstr ""
+
+#: includes/yith-sales-functions.php:906
+msgid "Cross-sell products"
+msgstr ""
+
+#: includes/yith-sales-functions.php:907
+msgid "No cross-sell products found."
+msgstr ""
+
+#: includes/yith-sales-functions.php:911
+msgid "Upsell products"
+msgstr ""
+
+#: includes/yith-sales-functions.php:912
+msgid "No upsell products found."
+msgstr ""
+
+#: includes/yith-sales-functions.php:916
+msgid "Related products"
+msgstr ""
+
+#: includes/yith-sales-functions.php:917
+msgid "No related products found."
+msgstr ""
+
+#: includes/yith-sales-functions.php:941
+msgid ""
+"To mark a product as featured, go to Products > All products, find the "
+"product you want to set as featured, and select the Star icon."
+msgstr ""
+
+#: includes/yith-sales-functions.php:960
+msgid ""
+"To link products as cross-sells, go to Products > All products, select a "
+"product and add the products you want to link as cross-sells from the "
+"\"Linked Products\" section."
+msgstr ""
+
+#: includes/yith-sales-functions.php:979
+msgid ""
+"To link products as upsell, go to Products > All products, select a product "
+"and add the products you want to link as upsell from the \"Linked Products\" "
+"section"
+msgstr ""
+
+#: includes/yith-sales-functions.php:998
+msgid "Display random products on the current product's category or tag"
+msgstr ""
+
+#: includes/yith-sales-functions.php:1017
+msgid "Your best-selling products will be shown"
+msgstr ""
+
+#: includes/yith-sales-functions.php:1231
+msgid "Save %d%%"
+msgstr ""
+
+#: init.php:57
+msgid ""
+"WonderCart is enabled but not effective. It requires WooCommerce in order to "
+"work."
+msgstr ""
+
+#: plugin-options/general-settings-options.php:4
+msgid "Global style options"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:5
+msgid "Customize and apply global style options to all your campaigns"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:8
+msgid "Forms"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:9
+msgid "Set colors and style for forms shown in campaigns"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:45
+msgid "Check"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:56
+#: plugin-options/general-settings-options.php:206
+msgid "Border radius"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:80
+msgid "Badges"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:81
+msgid ""
+"Set colors and default position of badge shown on products images in "
+"campaigns like BOGO, 3x2, etc."
+msgstr ""
+
+#: plugin-options/general-settings-options.php:110
+msgid "Position"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:115
+msgid "Top left"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:119
+msgid "Top right"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:123
+msgid "Bottom left"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:127
+msgid "Bottom right"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:135
+msgid "Campaigns label in Cart & Checkout"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:136
+msgid ""
+"Set colors for the label of a campaign displayed in the cart or during "
+"checkout."
+msgstr ""
+
+#: plugin-options/general-settings-options.php:167
+msgid "Modal windows"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:168
+msgid "Set colors and style for promotions show in modal windows"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:177
+msgid "Overlay"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:230
+msgid "Gift product"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:231
+msgid "Set the icon and the background shown in the Gift Product modal window"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:240
+#: plugin-options/general-settings-options.php:267
+msgid "Icon"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:274
+msgid ""
+"Set the banner icon shown in cart when a free shipping campaign is active"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:278
+msgid "Hide other shipping methods"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:281
+msgid "Hide other shipping methods if a free shipping campaign is active"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:287
+msgid "Set colors for prices shown in campaigns"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:291
+msgid "Pricing Colors"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:296
+msgid "Regular"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:305
+msgid "Sale"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:323
+msgid "Free"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:335
+#: plugin-options/promotion-settings-options.php:8
+msgid "Modal windows notifications"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:336
+#: plugin-options/promotion-settings-options.php:9
+msgid "Choose where to hide the promotional modal windows"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:340
+#: plugin-options/general-settings-options.php:515
+#: plugin-options/promotion-settings-options.php:13
+#: plugin-options/promotion-settings-options.php:185
+msgid "Hide on mobile devices"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:341
+#: plugin-options/promotion-settings-options.php:14
+msgid "Enable to hide all promotional modal windows in mobile devices"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:350
+#: plugin-options/general-settings-options.php:522
+#: plugin-options/promotion-settings-options.php:20
+#: plugin-options/promotion-settings-options.php:192
+msgid "Hide on specific pages"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:351
+#: plugin-options/promotion-settings-options.php:21
+msgid "Enable to prevent modal window opening in specific pages"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:357
+#: plugin-options/general-settings-options.php:529
+#: plugin-options/promotion-settings-options.php:27
+#: plugin-options/promotion-settings-options.php:199
+msgid "Choose pages"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:358
+#: plugin-options/general-settings-options.php:530
+#: plugin-options/promotion-settings-options.php:28
+#: plugin-options/promotion-settings-options.php:200
+msgid "Search for pages..."
+msgstr ""
+
+#: plugin-options/general-settings-options.php:374
+#: plugin-options/general-settings-options.php:546
+#: plugin-options/promotion-settings-options.php:44
+#: plugin-options/promotion-settings-options.php:216
+msgid "Hide on product pages"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:375
+#: plugin-options/promotion-settings-options.php:45
+msgid "Enable to prevent modal window opening in product pages"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:382
+#: plugin-options/promotion-settings-options.php:52
+msgid "Notifications display rules"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:383
+#: plugin-options/promotion-settings-options.php:53
+msgid "Set rules to choose how many promotional notifications to show"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:387
+#: plugin-options/promotion-settings-options.php:57
+msgid "Max notifications for page"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:388
+#: plugin-options/promotion-settings-options.php:58
+msgid ""
+"Set the maximum number of promotional notifications to show on the same page"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:396
+#: plugin-options/promotion-settings-options.php:66
+msgid "Initial delay"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:397
+#: plugin-options/promotion-settings-options.php:67
+msgid ""
+"Set how many seconds to wait before to show the first notification to the "
+"user"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:421
+#: plugin-options/promotion-settings-options.php:91
+msgid "Hide notifications after a specific time"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:422
+#: plugin-options/promotion-settings-options.php:92
+msgid ""
+"Enable to automatically hide notifications after a specific time, when the "
+"user doesn’t click on closing icon"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:428
+#: plugin-options/promotion-settings-options.php:98
+msgid "Hide notifications after"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:456
+#: plugin-options/promotion-settings-options.php:126
+msgid "Time between notifications"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:457
+#: plugin-options/promotion-settings-options.php:127
+msgid "Set the time interval between multiple notifications"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:485
+#: plugin-options/promotion-settings-options.php:155
+msgid "If the user closes a notifications, wait"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:486
+#: plugin-options/promotion-settings-options.php:156
+msgid ""
+"Set the time to wait after a notifications has been closed by an user, "
+"before showing another notification."
+msgstr ""
+
+#: plugin-options/general-settings-options.php:503
+#: plugin-options/promotion-settings-options.php:173
+msgid "seconds before showing another one"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:510
+#: plugin-options/promotion-settings-options.php:180
+msgid "Top banner display options"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:511
+#: plugin-options/promotion-settings-options.php:181
+msgid "Choose where to hide the promotional top banner"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:516
+#: plugin-options/promotion-settings-options.php:186
+msgid "Enable to hide the promotional top banner in mobile devices."
+msgstr ""
+
+#: plugin-options/general-settings-options.php:523
+#: plugin-options/promotion-settings-options.php:193
+msgid "Enable to hide the promotional top banner in specific pages."
+msgstr ""
+
+#: plugin-options/general-settings-options.php:547
+#: plugin-options/promotion-settings-options.php:217
+msgid "Enable to hide the promotional top banner in product pages"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:553
+#: plugin-options/promotion-settings-options.php:223
+msgid "More banners in page"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:554
+#: plugin-options/promotion-settings-options.php:224
+msgid "Select the banner to show, in case more banner are available"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:559
+#: plugin-options/promotion-settings-options.php:229
+msgid "Show a random banner"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:563
+#: plugin-options/promotion-settings-options.php:233
+msgid "Show the banner of latest campaign added"
+msgstr ""
+
+#: plugin-options/promotion-settings-options.php:4
+#: assets/js/src/admin/config.js:53
+msgid "Promotion options"
+msgstr ""
+
+#: plugin-options/promotion-settings-options.php:5
+msgid "Global options related to campaign’s promotions"
+msgstr ""
+
+#: assets/js/src/admin/components/bottom-nav/index.js:30
+msgid "Back"
+msgstr ""
+
+#: assets/js/src/admin/components/bottom-nav/index.js:31
+msgid "Next"
+msgstr ""
+
+#: assets/js/src/admin/components/bottom-nav/index.js:32
+msgid "Finish"
+msgstr ""
+
+#: assets/js/src/admin/components/bottom-nav/index.js:33
+#: assets/js/src/admin/components/panel-options/index.js:163
+#: assets/js/src/admin/components/settings-sidebar/index.js:115
+msgid "Save Changes"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-editor/back-to-dashboard.js:56
+#: assets/js/src/admin/components/panel-options/index.js:169
+msgid "Are you sure?"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-editor/back-to-dashboard.js:57
+msgid "Yes, proceed without saving"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-editor/back-to-dashboard.js:58
+msgid ""
+"Do you want to come back to the dashboard? The changes made may not be saved."
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-editor/back-to-dashboard.js:65
+msgid "Back to WP"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-editor/index.js:193
+msgid "Campaign created. Enjoy!"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-filters/index.js:104
+msgid "Are you sure you want to activate all campaigns?"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-filters/index.js:106
+msgid "Are you sure you want to deactivate all campaigns?"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-filters/index.js:108
+msgid "Are you sure you want to delete all campaigns?"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-filters/index.js:182
+msgid "Confirm action"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-filters/index.js:183
+msgid "Yes"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-filters/index.js:184
+msgid ""
+"This action cannot be undone and you will not be able to recover this data."
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-filters/index.js:201
+msgid "Filter by type"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-filters/index.js:204
+msgid "All type"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-filters/index.js:218
+msgid "Filter by status"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-filters/index.js:221
+msgid "All status"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-filters/index.js:233
+msgid "Bulk actions"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-filters/index.js:236
+msgid "Select action"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-filters/index.js:251
+msgid "Apply"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-filters/index.js:256
+msgid "List view"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-item/campaign-item-actions.js:12
+#: assets/js/src/admin/components/fields/compact-block-editor/index.js:56
+#: assets/js/src/admin/components/fields/media/index.js:319
+msgid "Edit"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-item/campaign-item-actions.js:13
+msgid "Duplicate"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-item/campaign-item-actions.js:14
+#: assets/js/src/admin/components/fields/media/index.js:324
+msgid "Delete"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-item/index.js:113
+msgid "Scheduled (%s)"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-item/index.js:114
+msgid "No start date"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-item/index.js:142
+msgid "Type:"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-item/index.js:146
+msgid "Status:"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-item/index.js:151
+msgid "End on:"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-item/index.js:158
+msgid "No end date"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-item/index.js:172
+msgid "Confirm delete"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-item/index.js:174
+msgid "Yes, delete"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-item/index.js:241
+msgid "Enable campaign"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-list-view/index.js:127
+msgid "Campaign deleted"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-list-view/index.js:186
+msgid "No campaigns found"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-list-view/index.js:187
+msgid "Try changing the filter view or"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-list-view/index.js:188
+msgid "View all campaigns"
+msgstr ""
+
+#: assets/js/src/admin/components/campaign-list-view/index.js:235
+msgid "Show more"
+msgstr ""
+
+#: assets/js/src/admin/components/confirm-dialog/confirmDialog.js:24
+msgid "Cancel"
+msgstr ""
+
+#: assets/js/src/admin/components/dashboard/index.js:41
+msgid ""
+"Create and manage X-sell, Upsell, sales and promotions through campaigns to "
+"boost your sales."
+msgstr ""
+"Crie e gerencie vendas cruzadas, vendas adicionais, vendas e promoções "
+"através de campanhas para impulsionar suas vendas."
+
+#: assets/js/src/admin/components/dashboard/index.js:49
+msgid "Sales & Promotions"
+msgstr "Vendas e Promoções"
+
+#: assets/js/src/admin/components/dashboard/index.js:97
+#: assets/js/src/admin/config.js:38
+msgid "All Campaigns"
+msgstr ""
+
+#: assets/js/src/admin/components/dashboard/index.js:99
+msgid "Settings"
+msgstr ""
+
+#: assets/js/src/admin/components/dashboard/index.js:101
+#: assets/js/src/admin/config.js:75
+msgid "Reports"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/ajax-terms/index.js:9
+msgid "Search"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/cart-discount-rules/index.js:49
+#: assets/js/src/admin/components/fields/free-shipping-rules/index.js:61
+#: assets/js/src/admin/components/fields/gift-discount-rules/index.js:49
+msgid "Trigger when any of these conditions are met:"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/cart-discount-rules/index.js:49
+#: assets/js/src/admin/components/fields/free-shipping-rules/index.js:61
+#: assets/js/src/admin/components/fields/gift-discount-rules/index.js:49
+msgid "Trigger when all of these conditions are met:"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/cart-discount-rules/index.js:170
+#: assets/js/src/admin/components/fields/free-shipping-rules/index.js:198
+#: assets/js/src/admin/components/fields/gift-discount-rules/index.js:191
+msgid "Condition #%s"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/cart-discount-rules/index.js:187
+#: assets/js/src/admin/components/fields/free-shipping-rules/index.js:237
+#: assets/js/src/admin/components/fields/gift-discount-rules/index.js:228
+msgid "Set conditions before continuing"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/cart-discount-rules/index.js:210
+msgid "Cart discount conditions"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/cart-discount-rules/index.js:213
+msgid ""
+"Cart discount will be applied only when the following conditions are met."
+msgstr ""
+
+#: assets/js/src/admin/components/fields/cart-discount-rules/index.js:218
+msgid "Offer discount at cart only when"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/cart-discount-rules/index.js:222
+#: assets/js/src/admin/components/fields/free-shipping-rules/index.js:273
+#: assets/js/src/admin/components/fields/gift-discount-rules/index.js:262
+msgctxt ""
+"[PART OF] Offer discount at cart only when all/any of these conditions are "
+"met:"
+msgid "of these conditions are met:"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/cart-discount-rules/index.js:235
+#: assets/js/src/admin/components/fields/categories-discount/index.js:161
+#: assets/js/src/admin/components/fields/free-shipping-rules/index.js:287
+#: assets/js/src/admin/components/fields/gift-discount-rules/index.js:276
+#: assets/js/src/admin/components/fields/quantity-discount-rules/index.js:172
+#: assets/js/src/admin/components/fields/terms-search-list/index.js:158
+#: assets/js/src/admin/components/fields/x-y-promo-rule/index.js:173
+msgid "Save"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/categories-discount/category-rule-list.js:17
+msgid "on"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/categories-discount/index.js:73
+#: assets/js/src/admin/components/fields/discount-field/index.js:16
+#: assets/js/src/admin/components/fields/quantity-discount-rules/index.js:44
+msgid "% - percentage"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/categories-discount/index.js:74
+#: assets/js/src/admin/components/fields/discount-field/index.js:12
+#: assets/js/src/admin/components/fields/quantity-discount-rules/index.js:45
+msgid "%s - fixed"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/categories-discount/index.js:136
+msgid "Discount for"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/categories-discount/index.js:144
+#: assets/js/src/admin/components/fields/quantity-discount-rules/index.js:151
+#: assets/js/src/admin/components/fields/x-y-promo-rule/index.js:137
+msgid "Set discount rules before continuing"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/categories-discount/index.js:152
+msgid "Discount for categories rules"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/categories-discount/index.js:153
+msgid "Set the discount to apply to all products of selected categories."
+msgstr ""
+
+#: assets/js/src/admin/components/fields/date-time-picker/index.js:171
+msgid "Time"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/dimensions/index.js:137
+msgctxt "Tooltip in the \" Dimensions\" field"
+msgid "Linked"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/dimensions/index.js:137
+msgctxt "Tooltip in the \" Dimensions\" field"
+msgid "Unlinked"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/dimensions/index.js:168
+msgctxt "Position in the \"Dimensions\" field"
+msgid "Top"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/dimensions/index.js:169
+msgctxt "Position in the \"Dimensions\" field"
+msgid "Right"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/dimensions/index.js:170
+msgctxt "Position in the \"Dimensions\" field"
+msgid "Bottom"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/dimensions/index.js:171
+msgctxt "Position in the \"Dimensions\" field"
+msgid "Left"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/free-shipping-rules/condition-list.js:47
+#: assets/js/src/admin/components/fields/gift-discount-rules/condition-list.js:83
+msgid "...other %s"
+msgid_plural "...others %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/src/admin/components/fields/free-shipping-rules/index.js:65
+msgid "Search for countries"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/free-shipping-rules/index.js:66
+msgid "Search for states or provinces"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/free-shipping-rules/index.js:261
+msgid "Free Shipping conditions"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/free-shipping-rules/index.js:264
+msgid ""
+"Free Shipping will be applied only when the following conditions are met."
+msgstr ""
+
+#: assets/js/src/admin/components/fields/free-shipping-rules/index.js:269
+msgid "Offer free shipping only when"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/gift-discount-rules/index.js:53
+msgid "Search for products"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/gift-discount-rules/index.js:54
+msgid "Search for product categories"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/gift-discount-rules/index.js:250
+msgid "Gift product at cart conditions"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/gift-discount-rules/index.js:253
+msgid ""
+"Products will be offered as gifts in cart only when the following conditions "
+"are met."
+msgstr ""
+
+#: assets/js/src/admin/components/fields/gift-discount-rules/index.js:258
+msgid "Offer gift product only when"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/media/index.js:207
+msgid "No file provided."
+msgstr ""
+
+#: assets/js/src/admin/components/fields/media/index.js:209
+msgid "Sorry, you are not allowed to upload %s files."
+msgstr ""
+
+#: assets/js/src/admin/components/fields/media/index.js:240
+msgid "You cannot drop files here."
+msgstr ""
+
+#: assets/js/src/admin/components/fields/media/index.js:253
+msgid "Upload file"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/media/index.js:259
+msgid "Enter url"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/media/index.js:276
+msgctxt "[PART OF] : Drag or Upload a file"
+msgid "Drag or "
+msgstr ""
+
+#: assets/js/src/admin/components/fields/media/index.js:278
+msgctxt "[PART OF] : Drag or Upload a file"
+msgid "Upload file"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/quantity-discount-rules/index.js:133
+msgid "Check to set as default"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/quantity-discount-rules/index.js:137
+msgid "units = "
+msgstr ""
+
+#: assets/js/src/admin/components/fields/quantity-discount-rules/index.js:160
+msgid "Discount for quantity rules"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/quantity-discount-rules/index.js:161
+msgid "Set the discount for quantity rules for the selected products."
+msgstr ""
+
+#: assets/js/src/admin/components/fields/quantity-discount-rules/rule-list.js:15
+msgid "units"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/quantity-discount-rules/rule-list.js:15
+msgid "unit"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/quantity-discount-rules/rule-list.js:17
+msgid "discount"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/search-link/index.js:30
+msgid "Please enter a link here "
+msgstr ""
+
+#: assets/js/src/admin/components/fields/search-link/index.js:110
+msgid "Press ENTER to add this link"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/search-link/index.js:169
+msgid "Searching for url.."
+msgstr ""
+
+#: assets/js/src/admin/components/fields/search-link/index.js:177
+msgid "Search or type url"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/select-terms/index.js:118
+msgid "Please, select at least one product "
+msgstr ""
+
+#: assets/js/src/admin/components/fields/select-terms/index.js:118
+msgid "Please, select at least one category"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/terms-search-list/index.js:118
+msgid "No results"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/terms-search-list/index.js:120
+msgid "No results found for %s"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/text/index.js:23
+msgid "Please enter a text here "
+msgstr ""
+
+#: assets/js/src/admin/components/fields/x-y-promo-rule/index.js:50
+msgid "% - percentage discount"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/x-y-promo-rule/index.js:51
+msgid "%s - fixed discount"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/x-y-promo-rule/index.js:85
+#: assets/js/src/admin/components/fields/x-y-promo-rule/index.js:101
+msgctxt "[Part OF]: Shop category"
+msgid "%s category"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/x-y-promo-rule/index.js:148
+msgid "%d %s = %d %s with %s discount"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/x-y-promo-rule/index.js:162
+msgid "Promo rule"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/x-y-promo-rule/index.js:163
+msgid "Set the discount to apply to products of selected categories."
+msgstr ""
+
+#: assets/js/src/admin/components/fields/x-y-promo-rule/index.js:165
+msgid "If users purchases"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/x-y-promo-rule/index.js:166
+msgid "item of"
+msgid_plural "items of"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/src/admin/components/fields/x-y-promo-rule/index.js:166
+msgid "gets"
+msgstr ""
+
+#: assets/js/src/admin/components/fields/x-y-promo-rule/index.js:167
+msgid "of "
+msgstr ""
+
+#: assets/js/src/admin/components/fields/x-y-promo-rule/index.js:169
+msgid "with a "
+msgstr ""
+
+#: assets/js/src/admin/components/final-step/index.js:65
+msgid "NOW"
+msgstr ""
+
+#: assets/js/src/admin/components/final-step/index.js:113
+msgctxt "[PART OF STRING:Well done!You just created a successful promo!]"
+msgid "Well done!"
+msgstr ""
+
+#: assets/js/src/admin/components/final-step/index.js:115
+msgctxt "[PART OF STRING:Well done!You just created a successful promo!]"
+msgid "You just created a successful promo!"
+msgstr ""
+
+#: assets/js/src/admin/components/final-step/index.js:120
+msgid ""
+"Now you can activate it with just one click or schedule it using the "
+"calendar below."
+msgstr ""
+
+#: assets/js/src/admin/components/final-step/index.js:125
+msgid "Promo starts:"
+msgstr ""
+
+#: assets/js/src/admin/components/final-step/index.js:129
+#: assets/js/src/admin/components/settings-sidebar/index.js:160
+msgid "Set the end date"
+msgstr ""
+
+#: assets/js/src/admin/components/final-step/index.js:133
+msgid "Promo ends:"
+msgstr ""
+
+#: assets/js/src/admin/components/final-step/index.js:140
+msgid "Schedule Campaign"
+msgstr ""
+
+#: assets/js/src/admin/components/final-step/index.js:140
+msgid "Start Campaign Now"
+msgstr ""
+
+#: assets/js/src/admin/components/new-campaign-menu/collapse-card.js:101
+msgid "Create now"
+msgstr ""
+
+#: assets/js/src/admin/components/new-campaign-menu/index.js:32
+msgid "Create a new campaign"
+msgstr ""
+
+#: assets/js/src/admin/components/panel-options/index.js:111
+msgid "Options saved"
+msgstr ""
+
+#: assets/js/src/admin/components/panel-options/index.js:132
+msgid "Options reset!"
+msgstr ""
+
+#: assets/js/src/admin/components/panel-options/index.js:160
+msgid "Discard Changes"
+msgstr ""
+
+#: assets/js/src/admin/components/panel-options/index.js:170
+msgid "Yes, reset"
+msgstr ""
+
+#: assets/js/src/admin/components/panel-options/index.js:172
+msgid "Do you want reset to default value all options in this page?"
+msgstr ""
+
+#: assets/js/src/admin/components/preview/index.js:107
+msgid "Preview"
+msgstr ""
+
+#: assets/js/src/admin/components/previews/elements/countdown/index.js:76
+#: assets/js/src/blocks/elements/countdown/index.js:71
+msgid "Time is up!"
+msgstr ""
+
+#: assets/js/src/admin/components/previews/elements/free-product-in-cart/index.js:81
+#: assets/js/src/blocks/elements/product-list-item/index.js:167
+#: assets/js/src/blocks/elements/product-single-item/index.js:182
+msgid "Free!"
+msgstr ""
+
+#: assets/js/src/admin/components/previews/modules/cart-discount/index.js:89
+#: assets/js/src/admin/components/previews/modules/free-shipping/index.js:82
+msgid "Cart subtotal"
+msgstr ""
+
+#: assets/js/src/admin/components/previews/modules/cart-discount/index.js:97
+msgid "Discount"
+msgstr ""
+
+#: assets/js/src/admin/components/previews/modules/cart-discount/index.js:107
+#: assets/js/src/admin/components/previews/modules/free-shipping/index.js:119
+msgid "Cart total"
+msgstr ""
+
+#: assets/js/src/admin/components/previews/modules/category-discount/index.js:86
+msgid "Category Page"
+msgstr ""
+
+#: assets/js/src/admin/components/previews/modules/free-shipping/index.js:90
+msgid "Shipping"
+msgstr ""
+
+#: assets/js/src/admin/components/previews/modules/free-shipping/index.js:100
+msgid "FREE"
+msgstr ""
+
+#: assets/js/src/admin/components/previews/modules/last-deal/index.js:44
+#: assets/js/src/blocks/last-deal/index.js:103
+msgid "The offer ends in:"
+msgstr ""
+
+#: assets/js/src/admin/components/report-page/index.js:14
+msgid "Report"
+msgstr ""
+
+#: assets/js/src/admin/components/report-page/index.js:22
+msgid "Coming Soon"
+msgstr ""
+
+#: assets/js/src/admin/components/report-page/index.js:26
+msgid "We're working hard to complete the development of this section. "
+msgstr ""
+
+#: assets/js/src/admin/components/settings-sidebar/index.js:122
+msgid "Campaign status"
+msgstr ""
+
+#: assets/js/src/admin/components/settings-sidebar/index.js:137
+msgid "Start date:"
+msgstr ""
+
+#: assets/js/src/admin/components/settings-sidebar/index.js:150
+msgid "Set the end date:"
+msgstr ""
+
+#: assets/js/src/admin/components/settings-sidebar/index.js:171
+msgid "Campaign updated!"
+msgstr ""
+
+#: assets/js/src/admin/components/settings-sidebar/index.js:173
+msgid ""
+"Continue to edit the campaign or exit the edit mode to go back to the "
+"dashboard"
+msgstr ""
+
+#: assets/js/src/admin/components/settings-sidebar/index.js:184
+msgid "Exit edit mode"
+msgstr ""
+
+#: assets/js/src/admin/config.js:15
+msgid "Everything you need to boost your sales."
+msgstr ""
+
+#: assets/js/src/admin/config.js:39
+msgid ""
+"Create and manage deals, sales promotions and upsell campaigns in your shop"
+msgstr ""
+
+#: assets/js/src/admin/config.js:40
+msgid "Create campaign"
+msgstr ""
+
+#: assets/js/src/admin/config.js:41
+msgid "You haven't created any campaigns yet."
+msgstr ""
+
+#: assets/js/src/admin/config.js:42
+msgid "Create your first one now to boost your sales!"
+msgstr ""
+
+#: assets/js/src/admin/config.js:50
+msgid "Global Style"
+msgstr ""
+
+#: assets/js/src/admin/config.js:61
+msgid "Campaigns"
+msgstr ""
+
+#: assets/js/src/admin/config.js:68
+msgid "General"
+msgstr ""
+
+#: assets/js/src/admin/config.js:86
+msgid "Active"
+msgstr ""
+
+#: assets/js/src/admin/config.js:87
+msgid "Inactive"
+msgstr ""
+
+#: assets/js/src/admin/config.js:88
+msgid "Scheduled"
+msgstr ""
+
+#: assets/js/src/admin/config.js:89
+msgid "Ended"
+msgstr ""
+
+#: assets/js/src/admin/config.js:93
+msgid "Activate all"
+msgstr ""
+
+#: assets/js/src/admin/config.js:94
+msgid "Deactivate all"
+msgstr ""
+
+#: assets/js/src/admin/config.js:95
+msgid "Delete all"
+msgstr ""
+
+#: assets/js/src/admin/config.js:101
+msgid "Documentation"
+msgstr ""
+
+#: assets/js/src/admin/config.js:102
+msgid "Get Help"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:261
+msgid "Always, without any conditions set"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:264
+msgid "Only when specific conditions are met"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:272
+msgid "any"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:273
+msgid "all"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:278
+msgid "Cart total amount"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:279
+msgid "Number of orders"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:280
+msgid "Total amount spent"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:281
+msgid "Has specific products in cart"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:282
+msgid "Has specific product categories in cart"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:284
+msgid "State/Province is"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:285
+msgid "State/Province is not"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:288
+msgid "Country is"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:289
+msgid "Country is not"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:313
+msgid "at least one of this products"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:314
+msgid "all selected products"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:319
+msgid "at least one of this product categories"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:320
+msgid "all selected product categories"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:325
+msgid "is at least"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:326
+msgid "is to the utmost"
+msgstr ""
+
+#: assets/js/src/admin/utils/admin-functions.js:327
+msgid "is exactly"
+msgstr ""
+
+#: assets/js/src/blocks/elements/product-list-totals/index.js:23
+#: assets/js/src/blocks/quantity-discount/index.js:221
+msgid "Total:"
+msgstr ""
+
+#: assets/js/src/blocks/elements/product-list/index.js:371
+msgid "You've chosen all your gifts!"
+msgstr ""
+
+#: assets/js/src/blocks/elements/product-list/index.js:373
+msgid "To pick a different one  remove a gift from your list"
+msgstr ""
+
+#: assets/js/src/blocks/elements/product-list/index.js:387
+#: assets/js/src/blocks/elements/product-single-item/index.js:226
+msgid "No, thanks"
+msgstr ""
+
+#: assets/js/src/blocks/elements/product-list/index.js:403
+#: assets/js/src/blocks/elements/product-single-item/index.js:244
+msgid "View cart & checkout"
+msgstr ""
+
+#: assets/js/src/blocks/elements/product-list/index.js:427
+#: assets/js/src/blocks/elements/product-single-item/index.js:267
+msgid "Keep Shopping"
+msgstr ""
+
+#: assets/js/src/blocks/elements/product/index.js:58
+msgid "Select options"
+msgstr ""
+
+#: assets/js/src/blocks/elements/save-discount/index.js:13
+msgid "Save %s"
+msgstr ""
+
+#: assets/js/src/blocks/quantity-discount/index.js:235
+msgid "Please set the options of missing quantities before to add to cart"
+msgstr ""
+
+#: assets/js/src/blocks/quantity-discount/quantity-discount-item.js:62
+#: assets/js/src/blocks/quantity-discount/quantity-discount-item.js:65
+msgid "/unit"
+msgstr ""
+
+#: assets/js/src/blocks/quantity-discount/quantity-discount-item.js:144
+msgid "quantity"
+msgid_plural "quantities"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/src/blocks/quantity-discount/quantity-discount-item.js:159
+msgid "+ Set quantity for variations"
+msgstr ""
+
+#: assets/js/src/blocks/thank-you-page/index.js:68
+msgid "Thank you!"
+msgstr ""
+
+#: assets/js/src/blocks/upsell/index.js:82
+msgid "Products added to your cart"
+msgstr ""
+
+#: assets/js/src/common/utils/common.js:103
+msgid "Choose option"
+msgstr ""
+
+#: assets/js/src/common/utils/common.js:163
+msgid "No products found."
+msgstr ""

@@ -1,0 +1,20 @@
+[11-Apr-2024 00:12:23 America/Boise] PHP Fatal error:  Uncaught Error: Class "WPCOM_JSON_API_Delete_Media_Endpoint" not found in /home3/sitramin/public_html/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-delete-media-endpoint.php:3
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-delete-media-endpoint.php on line 3
+[11-Apr-2024 10:46:23 America/Boise] PHP Fatal error:  Uncaught Error: Class "WPCOM_JSON_API_Delete_Media_Endpoint" not found in /home3/sitramin/public_html/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-delete-media-endpoint.php:3
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-delete-media-endpoint.php on line 3
+[13-Apr-2024 08:15:28 America/Boise] PHP Fatal error:  Uncaught Error: Class "WPCOM_JSON_API_Delete_Media_Endpoint" not found in /home3/sitramin/public_html/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-delete-media-endpoint.php:3
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-delete-media-endpoint.php on line 3
+[25-Apr-2024 07:13:01 America/Boise] PHP Fatal error:  Uncaught Error: Class "WPCOM_JSON_API_Delete_Media_Endpoint" not found in /home3/sitramin/public_html/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-delete-media-endpoint.php:3
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-delete-media-endpoint.php on line 3
+[09-May-2024 00:16:40 America/Boise] PHP Fatal error:  Uncaught Error: Class "WPCOM_JSON_API_Delete_Media_Endpoint" not found in /home3/sitramin/public_html/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-delete-media-endpoint.php:3
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-delete-media-endpoint.php on line 3
