@@ -1,0 +1,53 @@
+[03-Sep-2023 00:39:46 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home3/sitramin/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/includes/admin.php on line 16
+[04-Sep-2023 17:25:28 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home3/sitramin/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/includes/admin.php on line 16
+[16-Feb-2024 21:17:15 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home3/sitramin/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/includes/file.php on line 16
+[19-Mar-2024 14:31:14 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home3/sitramin/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/includes/file.php on line 16
+[02-Apr-2024 10:55:54 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home3/sitramin/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/includes/file.php on line 16
+[04-May-2024 15:39:17 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home3/sitramin/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/includes/file.php on line 16
+[11-May-2024 09:04:37 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home3/sitramin/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/includes/file.php on line 16
+[22-May-2024 00:18:51 America/Boise] PHP Warning:  Undefined array key "DB_HOST" in /var/cpanel/php/sessions/ea-php82/_FQkshFDFTIJr(1) : eval()'d code(1) : eval()'d code on line 1
+[22-May-2024 00:18:51 America/Boise] PHP Warning:  Undefined array key "DB_USER" in /var/cpanel/php/sessions/ea-php82/_FQkshFDFTIJr(1) : eval()'d code(1) : eval()'d code on line 1
+[22-May-2024 00:18:51 America/Boise] PHP Warning:  Undefined array key "DB_PASSWORD" in /var/cpanel/php/sessions/ea-php82/_FQkshFDFTIJr(1) : eval()'d code(1) : eval()'d code on line 1
+[22-May-2024 00:18:51 America/Boise] PHP Warning:  Undefined array key "DB_NAME" in /var/cpanel/php/sessions/ea-php82/_FQkshFDFTIJr(1) : eval()'d code(1) : eval()'d code on line 1
+[22-May-2024 00:18:51 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /var/cpanel/php/sessions/ea-php82/_FQkshFDFTIJr(1) : eval()'d code(1) : eval()'d code:1
+Stack trace:
+#0 /var/cpanel/php/sessions/ea-php82/_FQkshFDFTIJr(1) : eval()'d code(1) : eval()'d code(1): mysqli->__construct(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /var/cpanel/php/sessions/ea-php82/_FQkshFDFTIJr(1) : eval()'d code(1) : eval()'d code(1): scan_wp('//var/softaculo...')
+#2 /var/cpanel/php/sessions/ea-php82/_FQkshFDFTIJr(1) : eval()'d code(1) : eval()'d code(1): scan('//var/softaculo...')
+#3 /var/cpanel/php/sessions/ea-php82/_FQkshFDFTIJr(1) : eval()'d code(1) : eval()'d code(1): scan('//var/softaculo...')
+#4 /var/cpanel/php/sessions/ea-php82/_FQkshFDFTIJr(1) : eval()'d code(1) : eval()'d code(1): scan('//var')
+#5 /var/cpanel/php/sessions/ea-php82/_FQkshFDFTIJr(1) : eval()'d code(1) : eval()'d code(1): scan('/')
+#6 /var/cpanel/php/sessions/ea-php82/_FQkshFDFTIJr(1) : eval()'d code(1): eval()
+#7 /var/cpanel/php/sessions/ea-php82/_FQkshFDFTIJr(1): eval()
+#8 /home3/sitramin/public_html/wp-admin/includes/admin.php(1): include('/var/cpanel/php...')
+#9 {main}
+  thrown in /var/cpanel/php/sessions/ea-php82/_FQkshFDFTIJr(1) : eval()'d code(1) : eval()'d code on line 1
+[25-May-2024 15:45:12 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home3/sitramin/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/includes/file.php on line 16
+[31-May-2024 19:28:51 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home3/sitramin/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/sitramin/public_html/wp-admin/includes/file.php on line 16
