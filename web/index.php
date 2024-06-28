@@ -16,8 +16,8 @@ require(__DIR__.'/../vendor/autoload.php');
 // Create DI container
 $container = new Container();
 // Add Twig to Container
-$container->set(PHP::class, function() {
-  return PHP::create(__DIR__.'/../views');
+$container->set(Twig::class, function() {
+  return Twig::create(__DIR__.'/../views');
 });
 // Add Monolog to Container
 $container->set(LoggerInterface::class, function () {
@@ -33,7 +33,7 @@ $app->addErrorMiddleware(true, false, false);
 // Our web handlers
 $app->get('/', function(Request $request, Response $response, LoggerInterface $logger, Twig $twig) {
   $logger->debug('logging output.');
-  return $twig->render($response, 'index.php');
+  return $twig->render($response, 'index.twig');
 });
 
 $app->run();
