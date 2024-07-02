@@ -1,10 +1,4 @@
 <?php
-//Begin Really Simple SSL session cookie settings
-@ini_set('session.cookie_httponly', true);
-@ini_set('session.cookie_secure', true);
-@ini_set('session.use_only_cookies', true);
-//END Really Simple SSL
-
 /**
  * The base configuration for WordPress
  *
@@ -24,10 +18,6 @@
  * @package WordPress
  */
 
-define('DB_PORT', '<PORT>');
-
-
-
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */ 
 define('DB_NAME', 'sitram');
@@ -44,7 +34,7 @@ define('DB_HOST', 'dedvc1.stackhero-network.com');
 define('DB_PORT', '3306');
 
 // Use TLS encryption (aka SSL)
-define('MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL);
+//define('MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL);
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
@@ -101,3 +91,8 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+//Begin Really Simple SSL session cookie settings
+@ini_set('session.cookie_httponly', true);
+@ini_set('session.cookie_secure', true);
+@ini_set('session.use_only_cookies', true);
+//END Really Simple SSL
