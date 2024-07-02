@@ -24,19 +24,27 @@
  * @package WordPress
  */
 
+define('DB_PORT', '<PORT>');
+
+
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */ 
-define('DB_NAME', 'dav8mip9g3m12c');
+define('DB_NAME', 'sitram');
 
 /** MySQL database username */
-define('DB_USER', 'u65n146ucb3dsb');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'pc05bd28bc5aed4d5f161ce9967a98fbe5478152d78dc87c8ec59b35dd850e971');
+define('DB_PASSWORD', 'Ljfs6xHTvV0dipaiowHUgXHmugXWfnJn');
 
 /** MySQL hostname */
-define('DB_HOST', 'caij57unh724n3.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com');
+define('DB_HOST', 'dedvc1.stackhero-network.com');
 
+define('DB_PORT', '3306');
+
+// Use TLS encryption (aka SSL)
+define('MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL);
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
