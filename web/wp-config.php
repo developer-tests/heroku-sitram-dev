@@ -20,18 +20,27 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */ 
+// define('DB_NAME', 'sitram');
+
+// /** MySQL database username */
+// define('DB_USER', 'root');
+
+// /** MySQL database password */
+// define('DB_PASSWORD', '');
+
+// /** MySQL hostname */
+// define('DB_HOST', 'dedvc1.stackhero-network.com');
+
+// define('DB_PORT', '3306');
+
+define('DB_HOST', 'dedvc1.stackhero-network.com');
+define('DB_PORT', 3306);
 define('DB_NAME', 'sitram');
-
-/** MySQL database username */
 define('DB_USER', 'root');
-
-/** MySQL database password */
 define('DB_PASSWORD', 'Ljfs6xHTvV0dipaiowHUgXHmugXWfnJn');
 
-/** MySQL hostname */
-define('DB_HOST', 'dedvc1.stackhero-network.com');
-
-define('DB_PORT', '3306');
+// Use TLS encryption (aka SSL)
+define('MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL);
 
 // Use TLS encryption (aka SSL)
 //define('MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL);
